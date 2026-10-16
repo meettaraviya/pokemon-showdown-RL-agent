@@ -1,0 +1,63 @@
+Greninja @ Choice Specs  
+Ability: Protean  
+Tera Type: Water  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Dark Pulse  
+- Spikes  
+- Ice Beam  
+
+Clodsire @ Heavy-Duty Boots  
+Ability: Water Absorb  
+Tera Type: Dark  
+EVs: 248 HP / 8 Def / 252 SpD  
+Careful Nature  
+- Stealth Rock  
+- Earthquake  
+- Toxic  
+- Recover  
+
+Gholdengo @ Covert Cloak  
+Ability: Good as Gold  
+Tera Type: Flying  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Shadow Ball  
+- Make It Rain  
+- Recover  
+- Nasty Plot  
+
+Iron Valiant @ Choice Scarf  
+Ability: Quark Drive  
+Tera Type: Fairy  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Moonblast  
+- Psyshock  
+- Trick  
+- Thunderbolt  
+
+Great Tusk @ Leftovers  
+Ability: Protosynthesis  
+Tera Type: Water  
+EVs: 252 HP / 208 Def / 4 SpD / 44 Spe  
+Impish Nature  
+- Earthquake  
+- Body Press  
+- Knock Off  
+- Rapid Spin  
+
+Corviknight @ Leftovers  
+Ability: Pressure  
+Tera Type: Flying  
+EVs: 248 HP / 252 Def / 8 SpD  
+Impish Nature  
+- Brave Bird  
+- U-turn  
+- Roost  
+- Body Press  
+

@@ -1,0 +1,59 @@
+Iron Valiant @ Choice Specs  
+Ability: Quark Drive  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Focus Blast  
+- Moonblast  
+- Shadow Ball  
+- Psyshock  
+
+Great Tusk @ Leftovers  
+Ability: Protosynthesis  
+Tera Type: Fighting  
+EVs: 252 HP / 216 Def / 40 Spe  
+Impish Nature  
+- Rapid Spin  
+- Body Press  
+- Earthquake  
+- Knock Off  
+
+Iron Moth @ Heavy-Duty Boots  
+Ability: Quark Drive  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Flamethrower  
+- Sludge Wave  
+- Toxic Spikes  
+- Morning Sun  
+
+Ting-Lu @ Leftovers  
+Ability: Vessel of Ruin  
+Tera Type: Water  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Stealth Rock  
+- Earthquake  
+- Ruination  
+- Whirlwind  
+
+Scizor @ Leftovers
+Ability: Technician  
+Tera Type: Steel  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+- Swords Dance  
+- Bullet Punch  
+- Close Combat  
+- U-turn  
+
+Dragonite @ Heavy-Duty Boots  
+Ability: Multiscale  
+Tera Type: Normal  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Extreme Speed  
+- Earthquake  
+- Fire Punch  

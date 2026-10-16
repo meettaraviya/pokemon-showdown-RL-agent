@@ -1,0 +1,61 @@
+Greninja-Bond @ Life Orb  
+Ability: Battle Bond  
+Tera Type: Ghost  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Surf  
+- Dark Pulse  
+- Grass Knot  
+- Water Shuriken  
+
+Pelipper @ Damp Rock  
+Ability: Drizzle  
+Tera Type: Ground  
+EVs: 248 HP / 252 Def / 8 SpD  
+Bold Nature  
+- Surf  
+- Knock Off  
+- U-turn  
+- Roost  
+
+Barraskewda @ Choice Band  
+Ability: Swift Swim  
+Tera Type: Water  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Aqua Jet  
+- Flip Turn  
+- Liquidation  
+- Psychic Fangs  
+
+Zapdos @ Heavy-Duty Boots  
+Ability: Static  
+Tera Type: Steel  
+EVs: 248 HP / 8 Def / 252 Spe  
+Timid Nature  
+- Thunder  
+- Hurricane  
+- U-turn  
+- Roost  
+
+Manaphy @ Heavy-Duty Boots  
+Ability: Hydration  
+Tera Type: Fairy  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Surf  
+- Stored Power  
+- Tail Glow  
+- Rest  
+
+Ting-Lu @ Red Card  
+Ability: Vessel of Ruin  
+Tera Type: Ghost  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Stealth Rock  
+- Earthquake  
+- Whirlwind  
+- Spikes  
+

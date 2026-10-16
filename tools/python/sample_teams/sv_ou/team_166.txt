@@ -1,0 +1,62 @@
+Gliscor @ Toxic Orb  
+Ability: Poison Heal  
+Tera Type: Fairy  
+EVs: 244 HP / 168 Def / 96 Spe  
+Impish Nature  
+- Earthquake  
+- Toxic  
+- Protect  
+- Spikes  
+
+Alomomola (F) @ Assault Vest
+Ability: Regenerator  
+Tera Type: Poison  
+EVs: 216 HP / 40 Atk / 252 SpD  
+Sassy Nature  
+IVs: 0 Spe  
+- Flip Turn  
+- Play Rough  
+- Icy Wind  
+- Mirror Coat  
+
+Pecharunt @ Heavy-Duty Boots  
+Ability: Poison Puppeteer  
+Tera Type: Dark  
+EVs: 248 HP / 108 Def / 152 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Malignant Chain  
+- Foul Play  
+- Parting Shot  
+- Recover  
+
+Great Tusk @ Rocky Helmet  
+Ability: Protosynthesis  
+Tera Type: Ice  
+EVs: 204 Atk / 52 SpD / 252 Spe  
+Jolly Nature  
+- Headlong Rush  
+- Ice Spinner  
+- Rapid Spin  
+- Stealth Rock  
+
+Weavile (F) @ Heavy-Duty Boots
+Ability: Pressure  
+Tera Type: Ice  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Triple Axel  
+- Knock Off  
+- Ice Shard  
+- Swords Dance  
+
+Iron Crown @ Choice Specs  
+Ability: Quark Drive  
+Tera Type: Steel  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 20 Atk  
+- Tachyon Cutter  
+- Psychic Noise  
+- Psyshock  
+- Volt Switch

@@ -1,0 +1,64 @@
+Slowking @ Heavy-Duty Boots  
+Ability: Regenerator  
+Tera Type: Steel  
+EVs: 248 HP / 8 Def / 252 SpD  
+Sassy Nature  
+IVs: 0 Atk / 1 Spe  
+- Light Screen  
+- Reflect  
+- Slack Off  
+- Surf  
+
+Toxapex @ Heavy-Duty Boots  
+Ability: Regenerator  
+Tera Type: Fairy  
+EVs: 248 HP / 252 Def / 8 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Toxic  
+- Sludge Bomb  
+- Recover  
+- Haze  
+
+Alomomola @ Heavy-Duty Boots  
+Ability: Regenerator  
+Tera Type: Flying  
+EVs: 252 HP / 252 Def / 4 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Whirlpool  
+- Chilling Water  
+
+Dondozo @ Heavy-Duty Boots  
+Ability: Unaware  
+Tera Type: Ghost  
+EVs: 252 HP / 252 Def / 4 SpD  
+Impish Nature  
+- Earthquake  
+- Rest  
+- Sleep Talk  
+- Avalanche  
+
+Blissey @ Heavy-Duty Boots  
+Ability: Natural Cure  
+Tera Type: Dark  
+EVs: 4 HP / 252 Def / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Calm Mind  
+- Stealth Rock  
+- Seismic Toss  
+
+Great Tusk @ Heavy-Duty Boots  
+Ability: Protosynthesis  
+Tera Type: Ghost  
+EVs: 220 HP / 252 Def / 36 Spe  
+Impish Nature  
+- Knock Off  
+- Rapid Spin  
+- Rest  
+- Body Press  
+

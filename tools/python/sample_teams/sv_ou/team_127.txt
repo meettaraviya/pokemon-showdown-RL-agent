@@ -1,0 +1,61 @@
+Torkoal (F) @ Heat Rock
+Ability: Drought  
+Tera Type: Fairy  
+EVs: 104 HP / 236 SpA / 168 SpD  
+Quiet Nature  
+- Overheat  
+- Rapid Spin  
+- Stealth Rock  
+- Earthquake  
+
+Great Tusk @ Covert Cloak  
+Ability: Protosynthesis  
+Tera Type: Steel  
+EVs: 252 HP / 4 Atk / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Ice Spinner  
+- Bulk Up  
+- Rapid Spin  
+
+Slither Wing @ Assault Vest  
+Ability: Protosynthesis  
+Tera Type: Electric  
+EVs: 168 HP / 252 Atk / 88 Spe  
+Adamant Nature  
+- U-turn  
+- First Impression  
+- Earthquake  
+- Low Kick  
+
+Venusaur @ Life Orb  
+Ability: Chlorophyll  
+Tera Type: Fire  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 29 HP / 0 Atk  
+- Growth  
+- Giga Drain  
+- Sludge Bomb  
+- Weather Ball  
+
+Walking Wake @ Choice Specs  
+Ability: Protosynthesis  
+Tera Type: Water  
+EVs: 8 HP / 4 Def / 244 SpA / 252 Spe  
+Timid Nature  
+- Hydro Steam  
+- Draco Meteor  
+- Flamethrower  
+- Flip Turn  
+
+Heatran @ Air Balloon  
+Ability: Flash Fire  
+Tera Type: Ghost  
+EVs: 224 HP / 40 SpA / 244 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Magma Storm  
+- Earth Power  
+- Solar Beam  
+- Taunt

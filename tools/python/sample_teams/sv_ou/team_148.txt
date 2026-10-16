@@ -1,0 +1,68 @@
+Kyurem @ Leftovers  
+Ability: Pressure  
+Shiny: Yes  
+Tera Type: Ground  
+EVs: 56 HP / 200 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Protect  
+- Freeze-Dry  
+- Earth Power  
+
+Ting-Lu @ Leftovers  
+Ability: Vessel of Ruin  
+Tera Type: Fairy  
+EVs: 248 HP / 8 Def / 252 SpD  
+Careful Nature  
+- Stealth Rock  
+- Rest  
+- Ruination  
+- Earthquake  
+
+Corviknight (M) @ Rocky Helmet
+Ability: Pressure  
+Shiny: Yes  
+Tera Type: Water  
+EVs: 248 HP / 252 Def / 8 SpD  
+Relaxed Nature  
+IVs: 0 Spe  
+- Roost  
+- Brave Bird  
+- U-turn  
+- Iron Defense  
+
+Weezing-Galar (M) @ Heavy-Duty Boots
+Ability: Neutralizing Gas  
+Shiny: Yes  
+Tera Type: Fairy  
+EVs: 248 HP / 252 Def / 8 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Will-O-Wisp  
+- Strange Steam  
+- Defog  
+- Pain Split  
+
+Zamazenta @ Choice Band  
+Ability: Dauntless Shield  
+Shiny: Yes  
+Tera Type: Fighting  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Close Combat  
+- Stone Edge  
+- Heavy Slam  
+- Crunch  
+
+Toxapex (M) @ Assault Vest
+Ability: Regenerator  
+Shiny: Yes  
+Tera Type: Water  
+EVs: 248 HP / 8 Def / 252 SpA  
+Modest Nature  
+IVs: 0 Atk  
+- Surf  
+- Sludge Bomb  
+- Ice Beam  
+- Acid Spray

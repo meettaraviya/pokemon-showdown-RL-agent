@@ -1,0 +1,63 @@
+Gholdengo @ Choice Scarf  
+Ability: Good as Gold  
+Tera Type: Steel  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Shadow Ball  
+- Make It Rain  
+- Thunder Wave  
+- Trick  
+
+Darkrai @ Heavy-Duty Boots  
+Ability: Bad Dreams  
+Tera Type: Ghost  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+- Dark Pulse  
+- Ice Beam  
+- Knock Off  
+- Thunder Wave  
+
+Clefable (F) @ Life Orb
+Ability: Magic Guard  
+Tera Type: Water  
+EVs: 252 HP / 80 SpA / 176 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Moonblast  
+- Flamethrower  
+- Moonlight  
+
+Ting-Lu @ Red Card  
+Ability: Vessel of Ruin  
+Tera Type: Ghost  
+EVs: 252 HP / 4 Def / 252 SpD  
+Relaxed Nature  
+IVs: 0 Atk / 0 Spe  
+- Stealth Rock  
+- Spikes  
+- Ruination  
+- Whirlwind  
+
+Dragonite (F) @ Heavy-Duty Boots
+Ability: Multiscale  
+Tera Type: Normal  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Extreme Speed  
+- Earthquake  
+- Roost  
+
+Pecharunt @ Heavy-Duty Boots  
+Ability: Poison Puppeteer  
+Tera Type: Ghost  
+EVs: 252 HP / 4 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Nasty Plot  
+- Shadow Ball  
+- Malignant Chain  
+- Recover

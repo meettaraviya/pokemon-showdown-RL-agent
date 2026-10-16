@@ -1,0 +1,60 @@
+Cinderace (M) @ Heavy-Duty Boots
+Ability: Blaze  
+Tera Type: Flying  
+EVs: 224 HP / 32 Atk / 252 Spe  
+Jolly Nature  
+- Pyro Ball  
+- U-turn  
+- Will-O-Wisp  
+- Court Change  
+
+Muk-Alola @ Leftovers  
+Ability: Poison Touch  
+Tera Type: Water  
+EVs: 252 HP / 4 Atk / 252 SpD  
+Careful Nature  
+- Knock Off  
+- Poison Jab  
+- Protect  
+- Taunt  
+
+Dondozo @ Leftovers  
+Ability: Unaware  
+Tera Type: Fairy  
+EVs: 252 HP / 252 Def / 4 SpD  
+Impish Nature  
+- Liquidation  
+- Body Press  
+- Protect  
+- Curse  
+
+Landorus-Therian (M) @ Rocky Helmet
+Ability: Intimidate  
+Tera Type: Steel  
+EVs: 252 HP / 248 Def / 8 Spe  
+Impish Nature  
+- Earthquake  
+- U-turn  
+- Grass Knot  
+- Taunt  
+
+Zamazenta @ Leftovers  
+Ability: Dauntless Shield  
+Tera Type: Fire  
+EVs: 252 HP / 80 Def / 176 Spe  
+Jolly Nature  
+- Iron Defense  
+- Body Press  
+- Crunch  
+- Substitute  
+
+Scream Tail @ Leftovers  
+Ability: Protosynthesis  
+Tera Type: Dark  
+EVs: 120 HP / 236 SpD / 152 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Dazzling Gleam  
+- Wish  
+- Protect  
+- Encore

@@ -1,0 +1,60 @@
+Zamazenta @ Heavy-Duty Boots  
+Ability: Dauntless Shield  
+Tera Type: Steel  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature  
+- Close Combat  
+- Stone Edge  
+- Iron Head  
+- Crunch  
+
+Moltres @ Heavy-Duty Boots  
+Ability: Flame Body  
+Tera Type: Dragon  
+EVs: 248 HP / 248 SpD / 12 Spe  
+Calm Nature  
+- Flamethrower  
+- Will-O-Wisp  
+- Roost  
+- U-turn  
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb  
+Tera Type: Water  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Knock Off  
+- Synthesis  
+- Power Whip  
+- Ivy Cudgel  
+
+Great Tusk @ Rocky Helmet  
+Ability: Protosynthesis  
+Tera Type: Fire  
+EVs: 252 HP / 172 Def / 84 Spe  
+Impish Nature  
+- Stealth Rock  
+- Earthquake  
+- Knock Off  
+- Rapid Spin  
+
+Clefable @ Leftovers  
+Ability: Magic Guard  
+Tera Type: Fairy  
+EVs: 252 HP / 240 Def / 16 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Moonblast  
+- Encore  
+- Protect  
+- Wish  
+
+Ting-Lu @ Leftovers  
+Ability: Vessel of Ruin  
+Tera Type: Ghost  
+EVs: 252 HP / 248 SpD / 8 Spe  
+Careful Nature  
+- Earthquake  
+- Rest  
+- Whirlwind  
+- Spikes

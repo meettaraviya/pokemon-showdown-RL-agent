@@ -1,0 +1,64 @@
+Hoopa-Unbound @ Eject Pack  
+Ability: Magician  
+Tera Type: Dark  
+EVs: 248 HP / 252 Atk / 8 SpA  
+Brave Nature  
+IVs: 0 Spe  
+- Hyperspace Fury  
+- Drain Punch  
+- Psychic  
+- Trick Room  
+
+Ursaluna @ Flame Orb  
+Ability: Guts  
+Tera Type: Normal  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Brave Nature  
+IVs: 0 Spe  
+- Facade  
+- Headlong Rush  
+- Fire Punch  
+- Swords Dance  
+
+Hatterene @ Focus Sash  
+Ability: Magic Bounce  
+Tera Type: Ghost  
+EVs: 252 HP / 4 Def / 252 SpA  
+Quiet Nature  
+IVs: 0 Atk / 0 Spe  
+- Dazzling Gleam  
+- Psychic  
+- Trick Room  
+- Healing Wish  
+
+Cresselia @ Leftovers  
+Ability: Levitate  
+Tera Type: Poison  
+EVs: 252 HP / 176 Def / 80 SpD  
+Calm Nature  
+IVs: 0 Atk / 0 Spe  
+- Moonblast  
+- Moonlight  
+- Trick Room  
+- Lunar Dance  
+
+Iron Hands @ Booster Energy  
+Ability: Quark Drive  
+Tera Type: Flying  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+- Wild Charge  
+- Drain Punch  
+- Ice Punch  
+- Swords Dance  
+
+Kingambit @ Leftovers  
+Ability: Supreme Overlord  
+Tera Type: Flying  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+- Kowtow Cleave  
+- Iron Head  
+- Sucker Punch  
+- Swords Dance  
+

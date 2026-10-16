@@ -1,0 +1,60 @@
+Gliscor (F) @ Toxic Orb
+Ability: Poison Heal  
+Tera Type: Normal  
+EVs: 244 HP / 88 Def / 176 Spe  
+Impish Nature  
+- Facade  
+- Knock Off  
+- Swords Dance  
+- Protect  
+
+Meowscarada (F) @ Heavy-Duty Boots
+Ability: Protean  
+Tera Type: Ghost  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Knock Off  
+- U-turn  
+- Triple Axel  
+- Spikes  
+
+Ursaluna (F) @ Heavy-Duty Boots
+Ability: Bulletproof  
+Tera Type: Steel  
+EVs: 184 HP / 56 Atk / 208 SpD / 60 Spe  
+Adamant Nature  
+- Headlong Rush  
+- Ice Punch  
+- Rest  
+- Sleep Talk  
+
+Skarmory (F) @ Rocky Helmet
+Ability: Sturdy  
+Tera Type: Dragon  
+EVs: 240 HP / 44 Atk / 216 Def / 8 Spe  
+Impish Nature  
+- Brave Bird  
+- Stealth Rock  
+- Roost  
+- Whirlwind  
+
+Dragapult (F) @ Heavy-Duty Boots
+Ability: Infiltrator  
+Tera Type: Ghost  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Hex  
+- Draco Meteor  
+- U-turn  
+- Will-O-Wisp  
+
+Slowking-Galar @ Heavy-Duty Boots  
+Ability: Regenerator  
+Tera Type: Water  
+EVs: 248 HP / 8 Def / 252 SpD  
+Sassy Nature  
+IVs: 0 Atk / 0 Spe  
+- Sludge Bomb  
+- Psychic Noise  
+- Thunder Wave  
+- Chilly Reception

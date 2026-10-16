@@ -1,0 +1,63 @@
+Gholdengo @ Shuca Berry  
+Ability: Good as Gold  
+Tera Type: Steel  
+EVs: 192 HP / 152 SpA / 16 SpD / 148 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Nasty Plot  
+- Make It Rain  
+- Shadow Ball  
+- Recover  
+
+Darkrai @ Heavy-Duty Boots  
+Ability: Bad Dreams  
+Tera Type: Poison  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Dark Pulse  
+- Sludge Bomb  
+- Ice Beam  
+- Will-O-Wisp  
+
+Ting-Lu @ Rocky Helmet  
+Ability: Vessel of Ruin  
+Tera Type: Water  
+EVs: 240 HP / 16 Def / 248 SpD / 4 Spe  
+Careful Nature  
+- Stealth Rock  
+- Spikes  
+- Earthquake  
+- Ruination  
+
+Zapdos @ Heavy-Duty Boots  
+Ability: Static  
+Tera Type: Dragon  
+EVs: 248 HP / 244 Def / 16 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Volt Switch  
+- Hurricane  
+- Thunder Wave  
+- Roost  
+
+Primarina @ Heavy-Duty Boots  
+Ability: Torrent  
+Tera Type: Steel  
+EVs: 76 HP / 252 SpA / 180 Spe  
+Modest Nature  
+- Moonblast  
+- Surf  
+- Encore  
+- Flip Turn  
+
+Gliscor @ Toxic Orb  
+Ability: Poison Heal  
+Tera Type: Normal  
+EVs: 244 HP / 240 SpD / 24 Spe  
+Jolly Nature  
+- Swords Dance  
+- Facade  
+- Knock Off  
+- Protect  
+

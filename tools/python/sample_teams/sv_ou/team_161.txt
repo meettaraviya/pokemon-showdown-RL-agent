@@ -1,0 +1,62 @@
+Ting-Lu @ Leftovers  
+Ability: Vessel of Ruin  
+Tera Type: Fairy  
+EVs: 248 HP / 8 Def / 252 SpD  
+Careful Nature  
+- Earthquake  
+- Payback  
+- Rest  
+- Sleep Talk  
+
+Slowking-Galar (M) @ Heavy-Duty Boots
+Ability: Regenerator  
+Tera Type: Fairy  
+EVs: 248 HP / 252 Def / 8 SpD  
+Relaxed Nature  
+IVs: 0 Atk / 0 Spe  
+- Psychic Noise  
+- Sludge Bomb  
+- Ice Beam  
+- Chilly Reception  
+
+Corviknight (M) @ Rocky Helmet
+Ability: Pressure  
+Tera Type: Dragon  
+EVs: 248 HP / 252 Def / 8 SpD  
+Relaxed Nature  
+IVs: 0 Spe  
+- Body Press  
+- Defog  
+- Roost  
+- U-turn  
+
+Cinderace (M) @ Heavy-Duty Boots
+Ability: Libero  
+Tera Type: Fire  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Pyro Ball  
+- Sucker Punch  
+- U-turn  
+- Court Change  
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb  
+Tera Type: Water  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Ivy Cudgel  
+- Knock Off  
+- U-turn  
+- Encore  
+
+Raging Bolt @ Choice Specs  
+Ability: Protosynthesis  
+Tera Type: Fairy  
+EVs: 112 HP / 252 SpA / 144 Spe  
+Modest Nature  
+IVs: 20 Atk  
+- Volt Switch  
+- Draco Meteor  
+- Thunderbolt  
+- Thunderclap

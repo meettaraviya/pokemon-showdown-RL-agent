@@ -1,0 +1,68 @@
+Primarina (M) @ Leftovers
+Ability: Liquid Voice  
+Shiny: Yes  
+Tera Type: Ghost  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Psychic Noise  
+- Moonblast  
+- Whirlpool  
+- Substitute  
+
+Great Tusk @ Rocky Helmet  
+Ability: Protosynthesis  
+Shiny: Yes  
+Tera Type: Fire  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Headlong Rush  
+- Ice Spinner  
+- Rapid Spin  
+- Stealth Rock  
+
+Enamorus (F) @ Choice Scarf
+Ability: Contrary  
+Shiny: Yes  
+Hidden Power: Ghost  
+Tera Type: Ground  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+- Moonblast  
+- Earth Power  
+- Mystical Fire  
+- Healing Wish  
+
+Slowking-Galar (M) @ Assault Vest
+Ability: Regenerator  
+Shiny: Yes  
+Tera Type: Ice  
+EVs: 248 HP / 252 Def / 8 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Psychic Noise  
+- Sludge Bomb  
+- Flamethrower  
+- Ice Beam  
+
+Ogerpon (F) @ Choice Band
+Ability: Defiant  
+Hidden Power: Poison  
+Tera Type: Grass  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Ivy Cudgel  
+- U-turn  
+- Knock Off  
+- Rock Tomb  
+
+Kingambit (M) @ Leftovers
+Ability: Supreme Overlord  
+Shiny: Yes  
+Tera Type: Ghost  
+EVs: 248 HP / 252 Atk / 8 Def  
+Adamant Nature  
+- Swords Dance  
+- Kowtow Cleave  
+- Iron Head  
+- Sucker Punch

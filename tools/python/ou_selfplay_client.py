@@ -43,6 +43,7 @@ TeamSpec = str | Path
 
 @dataclass
 class EpisodeResult:
+    """EpisodeResult helper type/container used by the RL self-play tooling."""
     formatid: str
     winner: str
     winner_name: str
@@ -64,6 +65,7 @@ class EpisodeResult:
 
 @dataclass(frozen=True)
 class LegalAction:
+    """LegalAction helper type/container used by the RL self-play tooling."""
     command: str
     kind: ActionKind
     description: str
@@ -71,6 +73,7 @@ class LegalAction:
 
 @dataclass
 class PlayerDecision:
+    """PlayerDecision helper type/container used by the RL self-play tooling."""
     player: PlayerId
     request: dict[str, Any]
     actions: list[LegalAction]
@@ -78,6 +81,7 @@ class PlayerDecision:
 
 @dataclass(frozen=True)
 class BattleConfig:
+    """BattleConfig helper type/container used by the RL self-play tooling."""
     formatid: str
     include_log: bool
     p1team: str | None
@@ -87,6 +91,7 @@ class BattleConfig:
 
 @dataclass(frozen=True)
 class ActionRecord:
+    """ActionRecord helper type/container used by the RL self-play tooling."""
     index: int
     player: PlayerId
     command: str
@@ -97,6 +102,7 @@ class ActionRecord:
 
 @dataclass
 class BattleState:
+    """BattleState helper type/container used by the RL self-play tooling."""
     battle_id: str
     formatid: str
     turns: int
@@ -194,6 +200,7 @@ class BattleState:
 
 @dataclass
 class SimpleBattleState(BattleState):
+    """SimpleBattleState helper type/container used by the RL self-play tooling."""
     @classmethod
     def from_state(cls, state: BattleState) -> "SimpleBattleState":
         return cls(
@@ -220,6 +227,7 @@ class SimpleBattleState(BattleState):
 
 
 class SelfPlayBattle:
+    """SelfPlayBattle helper type/container used by the RL self-play tooling."""
     def __init__(
         self,
         client: OUSelfPlayClient,
@@ -302,6 +310,7 @@ class SelfPlayBattle:
     def _rebuild_from_seed(self, seed: list[int], target_cursor: int) -> BattleState:
         self._close_remote()
         config = self._clone_config_with_seed(seed)
+        self._config = config
         self.state = self._client.create_battle_state(config, self._state_cls)
         rebuilt_snapshots: list[BattleState] = [_clone_state(self.state)]
         for record in self._history[:target_cursor]:
@@ -392,7 +401,9 @@ class SelfPlayBattle:
         self._ensure_open()
         if cursor < 0 or cursor > len(self._history):
             raise ValueError(f"Cursor {cursor} is out of bounds [0, {len(self._history)}]")
-        branch_seed = self._derive_branch_seed(cursor)
+        # Forks should reproduce the current cursor exactly so planning can
+        # evaluate legal actions from the same request context.
+        branch_seed = self._config.seed[:]
         branch_config = self._clone_config_with_seed(branch_seed)
         branch_state = self._client.create_battle_state(branch_config, self._state_cls)
         branch = SelfPlayBattle(self._client, branch_state, branch_config, self._state_cls)
@@ -450,6 +461,7 @@ class SelfPlayBattle:
 
 
 class OUSelfPlayClient:
+    """OUSelfPlayClient helper type/container used by the RL self-play tooling."""
     def __init__(
         self,
         repo_root: str | Path,
@@ -685,31 +697,37 @@ def _battle_state_from_message(
     message: Mapping[str, Any],
     state_cls: type[BattleState] = BattleState,
 ) -> BattleState:
+    """_battle_state_from_message utility used by the RL self-play workflow."""
     state_payload = _ensure_mapping(message.get("state"), "message.state")
     return state_cls.from_payload(state_payload)
 
 
 def _ensure_mapping(value: Any, context: str) -> Mapping[str, Any]:
+    """_ensure_mapping utility used by the RL self-play workflow."""
     if not isinstance(value, Mapping):
         raise BridgeError(f"Expected {context} to be a JSON object, got {type(value).__name__}")
     return cast(Mapping[str, Any], value)
 
 
 def _ensure_sequence(value: Any, context: str) -> Sequence[Any]:
+    """_ensure_sequence utility used by the RL self-play workflow."""
     if not isinstance(value, Sequence) or isinstance(value, (str, bytes, bytearray)):
         raise BridgeError(f"Expected {context} to be a JSON array, got {type(value).__name__}")
     return cast(Sequence[Any], value)
 
 
 def _clone_state(state: BattleState) -> BattleState:
+    """_clone_state utility used by the RL self-play workflow."""
     return copy.deepcopy(state)
 
 
 def _condition_is_fainted(condition: str) -> bool:
+    """_condition_is_fainted utility used by the RL self-play workflow."""
     return condition.endswith(" fnt")
 
 
 def _pokemon_label(pokemon: Mapping[str, Any]) -> str:
+    """_pokemon_label utility used by the RL self-play workflow."""
     details = str(pokemon.get("details", ""))
     if details:
         return details.split(",", 1)[0].strip()
@@ -718,6 +736,7 @@ def _pokemon_label(pokemon: Mapping[str, Any]) -> str:
 
 
 def _slot_target_suffixes(target: str, actor_index: int, active_count: int) -> list[str | None]:
+    """_slot_target_suffixes utility used by the RL self-play workflow."""
     if active_count <= 1:
         return [None]
     if target in {"normal", "any", "adjacentFoe"}:
@@ -730,6 +749,7 @@ def _slot_target_suffixes(target: str, actor_index: int, active_count: int) -> l
 
 
 def _describe_target(target_suffix: str | None) -> str:
+    """_describe_target utility used by the RL self-play workflow."""
     if target_suffix is None:
         return ""
     if target_suffix.startswith("-"):
@@ -739,6 +759,7 @@ def _describe_target(target_suffix: str | None) -> str:
 
 @dataclass(frozen=True)
 class _ChoiceOption:
+    """_ChoiceOption helper type/container used by the RL self-play tooling."""
     command: str
     kind: ActionKind
     description: str
@@ -751,6 +772,7 @@ class _ChoiceOption:
 
 
 def enumerate_legal_actions(request: Mapping[str, Any]) -> list[LegalAction]:
+    """enumerate_legal_actions utility used by the RL self-play workflow."""
     if request.get("wait"):
         return []
     if request.get("teamPreview"):
@@ -763,6 +785,7 @@ def enumerate_legal_actions(request: Mapping[str, Any]) -> list[LegalAction]:
 
 
 def _enumerate_team_preview_actions(request: Mapping[str, Any]) -> list[LegalAction]:
+    """_enumerate_team_preview_actions utility used by the RL self-play workflow."""
     side = _ensure_mapping(request.get("side"), "request.side")
     pokemon = list(_ensure_sequence(side.get("pokemon"), "request.side.pokemon"))
     total_slots = len(pokemon)
@@ -779,6 +802,7 @@ def _enumerate_team_preview_actions(request: Mapping[str, Any]) -> list[LegalAct
 
 
 def _enumerate_simple_team_preview_actions(request: Mapping[str, Any]) -> list[LegalAction]:
+    """_enumerate_simple_team_preview_actions utility used by the RL self-play workflow."""
     side = _ensure_mapping(request.get("side"), "request.side")
     pokemon = list(_ensure_sequence(side.get("pokemon"), "request.side.pokemon"))
     total_slots = len(pokemon)
@@ -806,6 +830,7 @@ def _enumerate_simple_team_preview_actions(request: Mapping[str, Any]) -> list[L
 
 
 def _enumerate_force_switch_actions(request: Mapping[str, Any]) -> list[LegalAction]:
+    """_enumerate_force_switch_actions utility used by the RL self-play workflow."""
     force_switch = list(_ensure_sequence(request.get("forceSwitch"), "request.forceSwitch"))
     side = _ensure_mapping(request.get("side"), "request.side")
     pokemon = [cast(Mapping[str, Any], entry) for entry in _ensure_sequence(side.get("pokemon"), "request.side.pokemon")]
@@ -843,6 +868,7 @@ def _enumerate_force_switch_actions(request: Mapping[str, Any]) -> list[LegalAct
 
 
 def _enumerate_move_actions(request: Mapping[str, Any]) -> list[LegalAction]:
+    """_enumerate_move_actions utility used by the RL self-play workflow."""
     active_entries = [cast(Mapping[str, Any], entry) for entry in _ensure_sequence(request.get("active"), "request.active")]
     side = _ensure_mapping(request.get("side"), "request.side")
     pokemon = [cast(Mapping[str, Any], entry) for entry in _ensure_sequence(side.get("pokemon"), "request.side.pokemon")]
@@ -961,6 +987,7 @@ def _enumerate_move_actions(request: Mapping[str, Any]) -> list[LegalAction]:
 
 
 def _combine_choice_options(options_per_slot: Sequence[Sequence[_ChoiceOption]]) -> list[LegalAction]:
+    """_combine_choice_options utility used by the RL self-play workflow."""
     actions_by_command: dict[str, LegalAction] = {}
 
     def backtrack(
@@ -1013,6 +1040,7 @@ def _combine_choice_options(options_per_slot: Sequence[Sequence[_ChoiceOption]])
 
 
 def _state_snapshot(state: BattleState) -> dict[str, Any]:
+    """_state_snapshot utility used by the RL self-play workflow."""
     return {
         "battle_id": state.battle_id,
         "formatid": state.formatid,
@@ -1027,11 +1055,13 @@ def _state_snapshot(state: BattleState) -> dict[str, Any]:
 
 
 def _print_json(title: str, payload: Any) -> None:
+    """_print_json utility used by the RL self-play workflow."""
     print(f"\n=== {title} ===")
     print(json.dumps(payload, indent=2, sort_keys=True))
 
 
 def _trace_pending_decisions(battle: SelfPlayBattle) -> dict[PlayerId, LegalAction]:
+    """_trace_pending_decisions utility used by the RL self-play workflow."""
     actions: dict[PlayerId, LegalAction] = {}
     for player in battle.state.pending_players:
         request = battle.state.request_for(player)
@@ -1060,6 +1090,7 @@ def _demo(
     print_log: bool = False,
     simple_state: bool = False,
 ) -> None:
+    """_demo utility used by the RL self-play workflow."""
     repo_root = Path(__file__).resolve().parents[2]
     client = OUSelfPlayClient(repo_root=repo_root)
     try:
@@ -1124,6 +1155,7 @@ def _demo(
 
 
 def _resolve_player_id(player_text: str) -> PlayerId:
+    """_resolve_player_id utility used by the RL self-play workflow."""
     normalized = player_text.strip().lower()
     if normalized not in PLAYER_IDS:
         raise ValueError(f"Unknown player '{player_text}'. Use p1 or p2.")
@@ -1131,6 +1163,7 @@ def _resolve_player_id(player_text: str) -> PlayerId:
 
 
 def _rl_debug_snapshot(battle: SelfPlayBattle) -> dict[str, Any]:
+    """_rl_debug_snapshot utility used by the RL self-play workflow."""
     return {
         "state": _state_snapshot(battle.state),
         "cursor": battle.cursor,
@@ -1143,6 +1176,7 @@ def _rl_debug_snapshot(battle: SelfPlayBattle) -> dict[str, Any]:
 
 
 def _player_view_snapshot(battle: SelfPlayBattle, player: PlayerId) -> dict[str, Any]:
+    """_player_view_snapshot utility used by the RL self-play workflow."""
     request = battle.state.request_for(player)
     return {
         "player": player,
@@ -1152,6 +1186,7 @@ def _player_view_snapshot(battle: SelfPlayBattle, player: PlayerId) -> dict[str,
 
 
 def _print_history(battle: SelfPlayBattle) -> None:
+    """_print_history utility used by the RL self-play workflow."""
     payload: dict[str, Any] = {
         "cursor": battle.cursor,
         "history_length": battle.max_cursor,
@@ -1161,6 +1196,7 @@ def _print_history(battle: SelfPlayBattle) -> None:
 
 
 def _choose_by_index(battle: SelfPlayBattle, player: PlayerId, index: int) -> BattleState:
+    """_choose_by_index utility used by the RL self-play workflow."""
     legal = battle.possible_actions(player)
     if index < 0 or index >= len(legal):
         raise ValueError(f"Action index {index} out of bounds for {player}. Range is [0, {len(legal) - 1}].")
@@ -1168,6 +1204,7 @@ def _choose_by_index(battle: SelfPlayBattle, player: PlayerId, index: int) -> Ba
 
 
 def _simulate_by_index(battle: SelfPlayBattle, player: PlayerId, index: int) -> BattleState:
+    """_simulate_by_index utility used by the RL self-play workflow."""
     legal = battle.possible_actions(player)
     if index < 0 or index >= len(legal):
         raise ValueError(f"Action index {index} out of bounds for {player}. Range is [0, {len(legal) - 1}].")
@@ -1175,6 +1212,7 @@ def _simulate_by_index(battle: SelfPlayBattle, player: PlayerId, index: int) -> 
 
 
 def _print_debug_help() -> None:
+    """_print_debug_help utility used by the RL self-play workflow."""
     print(
         "\nDebug commands:\n"
         "  help                                 Show this help text\n"
@@ -1208,6 +1246,7 @@ def _debug_cli(
     include_log: bool = True,
     simple_state: bool = False,
 ) -> None:
+    """_debug_cli utility used by the RL self-play workflow."""
     repo_root = Path(__file__).resolve().parents[2]
     client = OUSelfPlayClient(repo_root=repo_root)
     try:
@@ -1375,6 +1414,7 @@ def _debug_cli(
 
 
 def _build_arg_parser() -> argparse.ArgumentParser:
+    """_build_arg_parser utility used by the RL self-play workflow."""
     parser = argparse.ArgumentParser(description="Run Pokemon Showdown self-play battles from Python.")
     subparsers = parser.add_subparsers(dest="mode")
 
@@ -1442,6 +1482,7 @@ def _build_arg_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: Sequence[str] | None = None) -> int:
+    """main utility used by the RL self-play workflow."""
     parser = _build_arg_parser()
     argv_list = list(argv) if argv is not None else sys.argv[1:]
     if not argv_list or argv_list[0].startswith("-"):

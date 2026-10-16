@@ -1,6 +1,10 @@
 /config/*
 !/config/formats.ts
 /logs/**/*
+
+# Keep markdown docs tracked inside otherwise ignored config/logs trees
+!/config/**/*.md
+!/logs/**/*.md
 /test/modlogs
 /test/replays/*.html
 /node_modules
@@ -12,6 +16,9 @@ npm-debug.log
 .eslintcache
 .eslintcache-no-types
 /tools/set-import/sets
+
+# Keep set-import docs tracked
+!/tools/set-import/sets/**/*.md
 databases/*.db*
 *.o
 *.o.dSYM
@@ -71,3 +78,36 @@ local_settings.py
 pip-log.txt
 # redis dumps
 *.rdb
+
+# RL training artifacts (weights/logs/checkpoint byproducts)
+tools/python/rl/checkpoints/**/*.pt
+tools/python/rl/checkpoints/**/*.train.log
+tools/python/rl/checkpoints/**/*.eval.log
+tools/python/rl/checkpoints/**/*.log
+
+# Keep Pokemon list/team TXT assets tracked
+!tools/python/rl/data/*.txt
+!tools/python/sample_teams/**/*.txt
+
+# Python caches and tooling temp files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.ipynb_checkpoints/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Build and packaging outputs
+build/
+dist/
+.sim-dist/
+*.whl
+pip-wheel-metadata/

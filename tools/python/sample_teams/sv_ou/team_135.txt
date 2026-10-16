@@ -1,0 +1,63 @@
+Glimmora @ Red Card  
+Ability: Toxic Debris  
+Tera Type: Ghost  
+EVs: 252 HP / 40 Def / 160 SpD / 56 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Power Gem  
+- Earth Power  
+- Stealth Rock  
+- Spikes  
+
+Zamazenta @ Leftovers  
+Ability: Dauntless Shield  
+Tera Type: Fire  
+EVs: 112 HP / 40 Atk / 104 Def / 252 Spe  
+Jolly Nature  
+- Iron Defense  
+- Body Press  
+- Crunch  
+- Substitute  
+
+Latias @ Leftovers  
+Ability: Levitate  
+Tera Type: Fairy  
+EVs: 208 HP / 148 Def / 68 SpA / 84 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Draining Kiss  
+- Stored Power  
+- Calm Mind  
+- Agility  
+
+Gholdengo @ Custap Berry  
+Ability: Good as Gold  
+Tera Type: Fairy  
+EVs: 192 HP / 92 SpA / 224 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Nasty Plot  
+- Shadow Ball  
+- Thunderbolt  
+- Dazzling Gleam  
+
+Dragonite @ Heavy-Duty Boots  
+Ability: Multiscale  
+Tera Type: Normal  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Extreme Speed  
+- Earthquake  
+- Ice Spinner  
+
+Weavile @ Life Orb  
+Ability: Pickpocket  
+Tera Type: Ice  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Swords Dance  
+- Triple Axel  
+- Upper Hand  
+- Knock Off  
+

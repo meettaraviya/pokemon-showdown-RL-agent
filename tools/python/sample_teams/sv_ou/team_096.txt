@@ -1,0 +1,61 @@
+Maushold @ Wide Lens  
+Ability: Technician  
+Tera Type: Ghost  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Tidy Up  
+- Population Bomb  
+- Bite  
+- Encore  
+
+Rillaboom @ Choice Band  
+Ability: Grassy Surge  
+Tera Type: Grass  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature  
+- Wood Hammer  
+- Knock Off  
+- Grassy Glide  
+- U-turn  
+
+Great Tusk @ Leftovers  
+Ability: Protosynthesis  
+Tera Type: Ice  
+EVs: 252 HP / 4 Atk / 252 Spe  
+Jolly Nature  
+- Bulk Up  
+- Headlong Rush  
+- Rapid Spin  
+- Ice Spinner  
+
+Heatran @ Leftovers  
+Ability: Flash Fire  
+Tera Type: Grass  
+EVs: 252 HP / 136 SpD / 120 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Stealth Rock  
+- Taunt  
+- Earth Power  
+- Magma Storm  
+
+Enamorus (F) @ Choice Scarf
+Ability: Contrary  
+Tera Type: Fairy  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Moonblast  
+- Earth Power  
+- Mystical Fire  
+- Healing Wish  
+
+Kingambit @ Leftovers  
+Ability: Supreme Overlord  
+Tera Type: Flying  
+EVs: 236 HP / 252 Atk / 20 Spe  
+Adamant Nature  
+- Swords Dance  
+- Kowtow Cleave  
+- Sucker Punch  
+- Iron Head

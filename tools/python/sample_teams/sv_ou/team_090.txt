@@ -1,0 +1,63 @@
+Gholdengo @ Heavy-Duty Boots  
+Ability: Good as Gold  
+Tera Type: Fairy  
+EVs: 248 HP / 8 Def / 252 SpA  
+Modest Nature  
+IVs: 0 Atk  
+- Nasty Plot  
+- Make It Rain  
+- Shadow Ball  
+- Recover  
+
+Iron Valiant @ Heavy-Duty Boots  
+Ability: Quark Drive  
+Tera Type: Fairy  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Naive Nature  
+- Knock Off  
+- Moonblast  
+- Close Combat  
+- Thunderbolt  
+
+Clefable @ Leftovers  
+Ability: Magic Guard  
+Tera Type: Ghost  
+EVs: 252 HP / 252 Def / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Stealth Rock  
+- Wish  
+- Moonblast  
+- Protect  
+
+Clodsire @ Heavy-Duty Boots  
+Ability: Water Absorb  
+Tera Type: Fairy  
+EVs: 248 HP / 248 SpD / 12 Spe  
+Careful Nature  
+- Spikes  
+- Toxic  
+- Earthquake  
+- Recover  
+
+Skeledirge @ Heavy-Duty Boots  
+Ability: Unaware  
+Tera Type: Fairy  
+EVs: 248 HP / 8 Def / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Torch Song  
+- Will-O-Wisp  
+- Hex  
+- Slack Off  
+
+Corviknight @ Leftovers  
+Ability: Pressure  
+Tera Type: Fire  
+EVs: 248 HP / 252 Def / 8 SpD  
+Impish Nature  
+- Iron Defense  
+- U-turn  
+- Body Press  
+- Roost  
+

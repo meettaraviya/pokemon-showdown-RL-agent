@@ -1,0 +1,63 @@
+Ribombee @ Focus Sash  
+Ability: Shield Dust  
+Tera Type: Ghost  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Moonblast  
+- Psychic  
+- Sticky Web  
+- Stun Spore  
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb  
+Tera Type: Water  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Swords Dance  
+- Play Rough  
+- Power Whip  
+- Ivy Cudgel  
+
+Iron Moth @ Booster Energy  
+Ability: Quark Drive  
+Tera Type: Ghost  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Fiery Dance  
+- Sludge Wave  
+- Psychic  
+- Substitute  
+
+Kingambit @ Lum Berry  
+Ability: Supreme Overlord  
+Tera Type: Fighting  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Swords Dance  
+- Iron Head  
+- Low Kick  
+- Sucker Punch  
+
+Gholdengo @ Air Balloon  
+Ability: Good as Gold  
+Tera Type: Fairy  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Shadow Ball  
+- Psyshock  
+- Nasty Plot  
+- Dazzling Gleam  
+
+Iron Valiant @ Booster Energy  
+Ability: Quark Drive  
+Tera Type: Ghost  
+EVs: 252 Atk / 4 SpA / 252 Spe  
+Naive Nature  
+IVs: 0 SpD  
+- Close Combat  
+- Knock Off  
+- Moonblast  
+- Destiny Bond

@@ -1,0 +1,60 @@
+Skarmory @ Rocky Helmet  
+Ability: Sturdy  
+Tera Type: Dragon  
+EVs: 248 HP / 252 Def / 8 SpD  
+Impish Nature  
+- Whirlwind  
+- Brave Bird  
+- Spikes  
+- Roost  
+
+Ting-Lu @ Leftovers  
+Ability: Vessel of Ruin  
+Tera Type: Water  
+EVs: 252 HP / 248 SpD / 8 Spe  
+Careful Nature  
+- Stealth Rock  
+- Earthquake  
+- Whirlwind  
+- Ruination  
+
+Zamazenta @ Heavy-Duty Boots  
+Ability: Dauntless Shield  
+Tera Type: Steel  
+EVs: 80 HP / 252 Atk / 176 Spe  
+Jolly Nature  
+- Close Combat  
+- Heavy Slam  
+- Crunch  
+- Stone Edge  
+
+Pecharunt @ Heavy-Duty Boots  
+Ability: Poison Puppeteer  
+Tera Type: Dark  
+EVs: 252 HP / 196 Def / 60 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Parting Shot  
+- Foul Play  
+- Malignant Chain  
+- Recover  
+
+Clefable @ Leftovers  
+Ability: Magic Guard  
+Tera Type: Steel  
+EVs: 252 HP / 248 Def / 8 Spe  
+Bold Nature  
+- Calm Mind  
+- Moonblast  
+- Moonlight  
+- Knock Off  
+
+Walking Wake @ Heavy-Duty Boots  
+Ability: Protosynthesis  
+Tera Type: Water  
+EVs: 12 Def / 244 SpA / 252 Spe  
+Timid Nature  
+- Surf  
+- Draco Meteor  
+- Knock Off  
+- Flip Turn  

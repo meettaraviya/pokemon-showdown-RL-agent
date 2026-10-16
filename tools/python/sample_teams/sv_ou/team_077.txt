@@ -1,0 +1,68 @@
+Dragapult (M) @ Choice Specs
+Ability: Infiltrator  
+Shiny: Yes  
+Tera Type: Ghost  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Shadow Ball  
+- Draco Meteor  
+- Flamethrower  
+- U-turn  
+
+Great Tusk @ Choice Band  
+Ability: Protosynthesis  
+Shiny: Yes  
+Tera Type: Ground  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Headlong Rush  
+- Close Combat  
+- Ice Spinner  
+- Rapid Spin  
+
+Enamorus @ Choice Scarf  
+Ability: Contrary  
+Shiny: Yes  
+Tera Type: Fairy  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Mystical Fire  
+- Moonblast  
+- Earth Power  
+- Healing Wish  
+
+Kingambit (M) @ Black Glasses
+Ability: Supreme Overlord  
+Shiny: Yes  
+Tera Type: Ghost  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Low Kick  
+- Swords Dance  
+- Kowtow Cleave  
+- Sucker Punch  
+
+Heatran (M) @ Air Balloon
+Ability: Flame Body  
+Shiny: Yes  
+Tera Type: Water  
+EVs: 248 HP / 252 Def / 8 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Magma Storm  
+- Protect  
+- Will-O-Wisp  
+- Stealth Rock  
+
+Toxapex (M) @ Leftovers
+Ability: Regenerator  
+Shiny: Yes  
+Tera Type: Flying  
+EVs: 248 HP / 8 Def / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Toxic  
+- Surf  
+- Recover  
+- Haze

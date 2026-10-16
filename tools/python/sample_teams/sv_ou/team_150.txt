@@ -1,0 +1,62 @@
+Blissey @ Heavy-Duty Boots  
+Ability: Natural Cure  
+Tera Type: Dark  
+EVs: 4 HP / 252 Def / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Flamethrower  
+- Seismic Toss  
+- Soft-Boiled  
+
+Clefable (F) @ Sticky Barb
+Ability: Magic Guard  
+Tera Type: Steel  
+EVs: 252 HP / 252 Def / 4 SpD  
+Bold Nature  
+- Knock Off  
+- Moonblast  
+- Moonlight  
+- Wish  
+
+Gliscor (F) @ Toxic Orb
+Ability: Poison Heal  
+Tera Type: Dragon  
+EVs: 244 HP / 252 Def / 12 SpD  
+Impish Nature  
+IVs: 24 Spe  
+- Toxic  
+- Knock Off  
+- Spikes  
+- Protect  
+
+Ting-Lu @ Heavy-Duty Boots  
+Ability: Vessel of Ruin  
+Tera Type: Ghost  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Stealth Rock  
+- Earthquake  
+- Rest  
+- Protect  
+
+Dondozo (F) @ Heavy-Duty Boots
+Ability: Unaware  
+Tera Type: Fighting  
+EVs: 252 HP / 252 Def / 4 SpD  
+Impish Nature  
+IVs: 18 Spe  
+- Waterfall  
+- Curse  
+- Sleep Talk  
+- Rest  
+
+Amoonguss (F) @ Heavy-Duty Boots
+Ability: Regenerator  
+Tera Type: Steel  
+EVs: 252 HP / 252 Def / 4 SpD  
+Relaxed Nature  
+- Toxic  
+- Foul Play  
+- Synthesis  
+- Seed Bomb

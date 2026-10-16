@@ -1,0 +1,62 @@
+Cinderace (M) @ Heavy-Duty Boots
+Ability: Blaze  
+Tera Type: Fire  
+EVs: 248 HP / 16 Def / 12 SpD / 232 Spe  
+Jolly Nature  
+- Pyro Ball  
+- U-turn  
+- Will-O-Wisp  
+- Court Change  
+
+Toxapex @ Assault Vest  
+Ability: Regenerator  
+Tera Type: Fairy  
+EVs: 248 HP / 224 SpA / 36 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Sludge Bomb  
+- Infestation  
+
+Dondozo @ Leftovers  
+Ability: Unaware  
+Tera Type: Ground  
+EVs: 252 Atk / 4 Def / 248 SpD / 4 Spe  
+Careful Nature  
+- Curse  
+- Avalanche  
+- Earthquake  
+- Protect  
+
+Hydreigon (F) @ Leftovers
+Ability: Levitate  
+Tera Type: Steel  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Nasty Plot  
+- Draco Meteor  
+- Earth Power  
+
+Great Tusk @ Rocky Helmet  
+Ability: Protosynthesis  
+Tera Type: Fire  
+EVs: 252 HP / 204 Def / 52 Spe  
+Impish Nature  
+- Bulk Up  
+- Earthquake  
+- Knock Off  
+- Rapid Spin  
+
+Scream Tail @ Leftovers  
+Ability: Protosynthesis  
+Tera Type: Fairy  
+EVs: 120 HP / 236 SpD / 152 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Dazzling Gleam  
+- Wish  
+- Protect  
+- Encore

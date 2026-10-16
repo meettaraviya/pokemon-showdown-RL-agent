@@ -1,0 +1,60 @@
+Great Tusk @ Leftovers  
+Ability: Protosynthesis  
+Tera Type: Water  
+EVs: 248 HP / 16 Atk / 164 Def / 80 Spe  
+Impish Nature  
+- Earthquake  
+- Knock Off  
+- Rapid Spin  
+- Stealth Rock  
+
+Breloom @ Choice Band  
+Ability: Technician  
+Tera Type: Fire  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Bullet Seed  
+- Close Combat  
+- Mach Punch  
+- Rock Tomb  
+
+Dragapult @ Leftovers  
+Ability: Infiltrator  
+Tera Type: Fairy  
+EVs: 80 Atk / 176 SpA / 252 Spe  
+Mild Nature  
+- Dragon Darts  
+- Hex  
+- Will-O-Wisp  
+- Substitute  
+
+Kingambit @ Leftovers  
+Ability: Supreme Overlord  
+Tera Type: Fire  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Swords Dance  
+- Iron Head  
+- Kowtow Cleave  
+- Sucker Punch  
+
+Rotom-Wash @ Leftovers  
+Ability: Levitate  
+Tera Type: Fairy  
+EVs: 252 HP / 244 SpD / 12 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Volt Switch  
+- Thunder Wave  
+- Protect  
+
+Cinderace @ Heavy-Duty Boots  
+Ability: Libero  
+Tera Type: Flying  
+EVs: 248 HP / 16 Def / 12 SpD / 232 Spe  
+Jolly Nature  
+- Pyro Ball  
+- U-turn  
+- Will-O-Wisp  
+- Court Change 

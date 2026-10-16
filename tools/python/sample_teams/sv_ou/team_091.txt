@@ -1,0 +1,64 @@
+Clefable @ Sticky Barb  
+Ability: Magic Guard  
+Tera Type: Steel  
+EVs: 248 HP / 236 Def / 24 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Moonblast  
+- Stealth Rock  
+- Moonlight  
+- Encore  
+
+Gliscor @ Toxic Orb  
+Ability: Poison Heal  
+Tera Type: Dragon  
+EVs: 244 HP / 16 Def / 192 SpD / 56 Spe  
+Impish Nature  
+- Earthquake  
+- Spikes  
+- Protect  
+- Toxic  
+
+Milotic @ Heavy-Duty Boots  
+Ability: Marvel Scale  
+Tera Type: Dragon  
+EVs: 252 HP / 140 SpD / 116 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Scald  
+- Mirror Coat  
+- Recover  
+- Haze  
+
+Mandibuzz @ Heavy-Duty Boots  
+Ability: Overcoat  
+Tera Type: Fire  
+EVs: 248 HP / 244 Def / 16 Spe  
+Impish Nature  
+- Foul Play  
+- Knock Off  
+- Roost  
+- Iron Defense  
+
+Skeledirge @ Heavy-Duty Boots  
+Ability: Unaware  
+Tera Type: Water  
+EVs: 248 HP / 88 Def / 172 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Torch Song  
+- Hex  
+- Slack Off  
+- Will-O-Wisp  
+
+Dragapult @ Heavy-Duty Boots  
+Ability: Infiltrator  
+Tera Type: Dragon  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Hex  
+- Draco Meteor  
+- U-turn  
+- Will-O-Wisp  
+
+

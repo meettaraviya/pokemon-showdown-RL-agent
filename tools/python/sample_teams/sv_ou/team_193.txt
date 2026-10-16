@@ -1,0 +1,61 @@
+Pecharunt @ Heavy-Duty Boots  
+Ability: Poison Puppeteer  
+Tera Type: Fairy  
+EVs: 112 HP / 144 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Malignant Chain  
+- Shadow Ball  
+- Nasty Plot  
+- Recover  
+
+Kingambit (F) @ Leftovers
+Ability: Supreme Overlord  
+Tera Type: Fighting  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Iron Head  
+- Low Kick  
+- Sucker Punch  
+- Swords Dance  
+
+Volcanion @ Leftovers  
+Ability: Water Absorb  
+Tera Type: Poison  
+EVs: 248 HP / 68 Def / 8 SpA / 184 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Steam Eruption  
+- Flamethrower  
+- Taunt  
+- Will-O-Wisp  
+
+Iron Valiant @ Booster Energy  
+Ability: Quark Drive  
+Tera Type: Stellar  
+EVs: 252 Atk / 4 SpA / 252 Spe  
+Naive Nature  
+- Close Combat  
+- Knock Off  
+- Moonblast  
+- Encore  
+
+Landorus-Therian @ Rocky Helmet  
+Ability: Intimidate  
+Tera Type: Water  
+EVs: 248 HP / 24 Def / 4 SpD / 232 Spe  
+Jolly Nature  
+- Earthquake  
+- U-turn  
+- Stealth Rock  
+- Taunt  
+
+Deoxys-Speed @ Eject Pack  
+Ability: Pressure  
+Tera Type: Fighting  
+EVs: 200 Atk / 252 SpA / 56 Spe  
+Naive Nature  
+- Psycho Boost  
+- Superpower  
+- Knock Off  
+- Spikes

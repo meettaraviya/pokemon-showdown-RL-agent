@@ -8,7 +8,7 @@ from typing import Any
 
 import random
 
-from .types import BattleFeatures
+from .custom_types import BattleFeatures
 
 
 @dataclass(frozen=True)

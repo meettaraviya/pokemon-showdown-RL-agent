@@ -1,0 +1,67 @@
+Cinderace (M) @ Heavy-Duty Boots
+Ability: Libero  
+Shiny: Yes  
+Tera Type: Poison  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature  
+- Pyro Ball  
+- Gunk Shot  
+- U-turn  
+- Zen Headbutt  
+
+Great Tusk @ Booster Energy  
+Ability: Protosynthesis  
+Shiny: Yes  
+Tera Type: Ground  
+EVs: 248 HP / 4 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Stealth Rock  
+- Headlong Rush  
+- Knock Off  
+- Rapid Spin  
+
+Gholdengo @ Choice Scarf  
+Ability: Good as Gold  
+Shiny: Yes  
+Tera Type: Fighting  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Trick  
+- Shadow Ball  
+- Make It Rain  
+- Focus Blast  
+
+Kingambit (M) @ Choice Band
+Ability: Supreme Overlord  
+Shiny: Yes  
+Tera Type: Dark  
+EVs: 248 HP / 252 Atk / 8 Def  
+Adamant Nature  
+- Sucker Punch  
+- Iron Head  
+- Kowtow Cleave  
+- Low Kick  
+
+Rotom-Wash @ Leftovers  
+Ability: Levitate  
+Shiny: Yes  
+Tera Type: Ghost  
+EVs: 248 HP / 252 Def / 8 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Protect  
+- Volt Switch  
+- Hydro Pump  
+- Will-O-Wisp  
+
+Dragapult (M) @ Choice Specs
+Ability: Infiltrator  
+Shiny: Yes  
+Tera Type: Ghost  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Shadow Ball  
+- Draco Meteor  
+- Flamethrower  
+- U-turn

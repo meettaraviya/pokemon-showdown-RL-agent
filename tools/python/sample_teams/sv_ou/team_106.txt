@@ -1,0 +1,63 @@
+Ting-Lu @ Leftovers  
+Ability: Vessel of Ruin  
+Tera Type: Ghost  
+EVs: 248 HP / 40 Def / 216 SpD / 4 Spe  
+Careful Nature  
+- Earthquake  
+- Ruination  
+- Stealth Rock  
+- Whirlwind  
+
+Skarmory @ Rocky Helmet  
+Ability: Sturdy  
+Tera Type: Fighting  
+EVs: 248 HP / 164 Def / 96 Spe  
+Impish Nature  
+IVs: 0 Atk  
+- Body Press  
+- Spikes  
+- Iron Defense  
+- Roost  
+
+Gholdengo @ Air Balloon  
+Ability: Good as Gold  
+Tera Type: Fairy  
+EVs: 248 HP / 176 Def / 12 SpD / 72 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Shadow Ball  
+- Make It Rain  
+- Nasty Plot  
+- Recover  
+
+Meowscarada @ Heavy-Duty Boots  
+Ability: Protean  
+Tera Type: Electric  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Knock Off  
+- Flower Trick  
+- U-turn  
+- Triple Axel  
+
+Zamazenta @ Heavy-Duty Boots  
+Ability: Dauntless Shield  
+Tera Type: Stellar  
+EVs: 104 HP / 252 Atk / 152 Spe  
+Jolly Nature  
+- Close Combat  
+- Crunch  
+- Stone Edge  
+- Heavy Slam  
+
+Toxapex @ Heavy-Duty Boots  
+Ability: Regenerator  
+Tera Type: Fairy  
+EVs: 248 HP / 240 SpD / 20 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Haze  
+- Recover  
+

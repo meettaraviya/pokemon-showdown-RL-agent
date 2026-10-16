@@ -1,0 +1,62 @@
+Cinderace @ Heavy-Duty Boots  
+Ability: Blaze  
+Tera Type: Ghost  
+EVs: 224 HP / 32 Atk / 252 Spe  
+Jolly Nature  
+- Pyro Ball  
+- U-turn  
+- Will-O-Wisp  
+- Court Change  
+
+Zapdos @ Heavy-Duty Boots  
+Ability: Static  
+Tera Type: Fairy  
+EVs: 252 HP / 16 Def / 240 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Volt Switch  
+- Hurricane  
+- Roost  
+- Thunder Wave  
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb  
+Tera Type: Water  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Knock Off  
+- Encore  
+- Power Whip  
+- Ivy Cudgel  
+
+Slowking-Galar @ Heavy-Duty Boots  
+Ability: Regenerator  
+Tera Type: Dragon  
+EVs: 252 HP / 208 Def / 48 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Ice Beam  
+- Future Sight  
+- Sludge Bomb  
+- Chilly Reception  
+
+Ting-Lu @ Leftovers  
+Ability: Vessel of Ruin  
+Tera Type: Ghost  
+EVs: 252 HP / 240 SpD / 16 Spe  
+Careful Nature  
+- Rest  
+- Stealth Rock  
+- Earthquake  
+- Whirlwind  
+
+Dondozo @ Heavy-Duty Boots  
+Ability: Unaware  
+Tera Type: Fairy  
+EVs: 252 HP / 252 Def / 4 SpD  
+Relaxed Nature  
+IVs: 29 Spe  
+- Avalanche  
+- Body Press  
+- Rest  
+- Sleep Talk

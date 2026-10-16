@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Pokemon Showdown RL Control Room</title>
+	<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+	<div class="backdrop"></div>
+	<header class="hero">
+		<div>
+			<p class="eyebrow">Pokemon Showdown RL</p>
+			<h1>Control Room</h1>
+			<p class="lede">Train, evaluate, inspect battle state, and play against the agent from one local dashboard.</p>
+		</div>
+		<div class="hero-meta" id="meta-summary"></div>
+	</header>
+
+	<main class="layout">
+		<section class="panel stack">
+			<div class="panel-header">
+				<h2>Training</h2>
+				<span>PPO on SV OU or other supported formats</span>
+			</div>
+			<form id="train-form" class="stack compact-form">
+				<div class="grid two">
+					<label title="Pokemon Showdown format ID to train on. Example: gen9ou, gen9randombattle.">Format ID<input name="formatid" value="gen9ou" title="Pokemon Showdown format ID to train on. Example: gen9ou, gen9randombattle." /></label>
+					<label title="Path where trained model weights will be saved (.pt). The job log file name is derived from this path.">Output checkpoint<input name="output" value="tools/python/rl/checkpoints/ppo_ui.pt" title="Path where trained model weights will be saved (.pt). The job log file name is derived from this path." /></label>
+					<label title="Policy/value network architecture. deepset: permutation-invariant party encoder (faster baseline). transformer: attention-based party encoder (more expressive, usually slower).">Architecture<select name="architecture" title="Policy/value network architecture. deepset: permutation-invariant party encoder (faster baseline). transformer: attention-based party encoder (more expressive, usually slower)."><option value="deepset" title="deepset: permutation-invariant party encoder; fast and stable baseline.">deepset</option><option value="transformer" title="transformer: attention-based encoder; higher capacity but heavier compute.">transformer</option></select></label>
+					<label title="Compute device for training. Typical values: cpu, cuda, cuda:0, mps.">Device<input name="device" value="cpu" title="Compute device for training. Typical values: cpu, cuda, cuda:0, mps." /></label>
+					<label title="Number of PPO outer iterations (epochs over newly collected rollouts). Must be a positive integer.">Iterations<input name="iterations" type="number" value="50" title="Number of PPO outer iterations (epochs over newly collected rollouts). Must be a positive integer." /></label>
+					<label title="Environment steps collected per iteration before PPO updates. Larger values reduce variance but cost more wall time.">Rollout steps<input name="rollout_steps" type="number" value="1024" title="Environment steps collected per iteration before PPO updates. Larger values reduce variance but cost more wall time." /></label>
+					<label title="Number of optimization passes over each collected rollout batch. Typical: 1-10.">PPO epochs<input name="ppo_epochs" type="number" value="4" title="Number of optimization passes over each collected rollout batch. Typical: 1-10." /></label>
+					<label title="Minibatch size per PPO gradient update. Must be positive and generally <= rollout steps.">Minibatch size<input name="minibatch_size" type="number" value="256" title="Minibatch size per PPO gradient update. Must be positive and generally <= rollout steps." /></label>
+					<label title="Hidden layer width for model blocks. Larger values increase capacity and memory use.">Hidden dim<input name="hidden_dim" type="number" value="192" title="Hidden layer width for model blocks. Larger values increase capacity and memory use." /></label>
+					<label title="Maximum legal actions encoded each step. Actions above this cap are truncated.">Max actions<input name="max_actions" type="number" value="128" title="Maximum legal actions encoded each step. Actions above this cap are truncated." /></label>
+					<label title="Reward discount factor in [0, 1]. Higher values emphasize long-term outcomes. Typical: 0.99-0.999.">Gamma<input name="gamma" type="number" step="0.001" value="0.995" title="Reward discount factor in [0, 1]. Higher values emphasize long-term outcomes. Typical: 0.99-0.999." /></label>
+					<label title="GAE smoothing parameter in [0, 1]. Typical: 0.9-0.97.">GAE lambda<input name="gae_lambda" type="number" step="0.01" value="0.95" title="GAE smoothing parameter in [0, 1]. Typical: 0.9-0.97." /></label>
+					<label title="PPO clipping epsilon. Typical: 0.1-0.3. Larger allows bigger policy updates.">Clip ratio<input name="clip_ratio" type="number" step="0.01" value="0.2" title="PPO clipping epsilon. Typical: 0.1-0.3. Larger allows bigger policy updates." /></label>
+					<label title="Optimizer learning rate. Typical: 1e-4 to 5e-4 for this setup.">Learning rate<input name="lr" type="number" step="0.0001" value="0.0003" title="Optimizer learning rate. Typical: 1e-4 to 5e-4 for this setup." /></label>
+					<label title="Weight on value-function loss term in PPO objective.">Value coef<input name="value_coef" type="number" step="0.1" value="0.5" title="Weight on value-function loss term in PPO objective." /></label>
+					<label title="Weight on entropy bonus term in PPO objective. Higher values encourage exploration.">Entropy coef<input name="entropy_coef" type="number" step="0.01" value="0.01" title="Weight on entropy bonus term in PPO objective. Higher values encourage exploration." /></label>
+					<label title="Global gradient norm clipping threshold to stabilize updates.">Grad norm<input name="max_grad_norm" type="number" step="0.1" value="1.0" title="Global gradient norm clipping threshold to stabilize updates." /></label>
+					<label title="Scale factor for heuristic shaping reward added to terminal/objective rewards.">Reward shaping<input name="shaping_scale" type="number" step="0.1" value="0.4" title="Scale factor for heuristic shaping reward added to terminal/objective rewards." /></label>
+					<label title="Random seed for reproducibility across sampling, rollout collection, and optimization.">Seed<input name="seed" type="number" value="0" title="Random seed for reproducibility across sampling, rollout collection, and optimization." /></label>
+					<label title="Action-selection mode while collecting rollouts. sample: sample from policy distribution (explores). greedy: take argmax policy action (exploitative).">Strategy<select name="strategy" title="Action-selection mode while collecting rollouts. sample: sample from policy distribution (explores). greedy: take argmax policy action (exploitative)."><option value="sample" title="sample: stochastic policy sampling; better exploration and policy entropy.">sample</option><option value="greedy" title="greedy: deterministic argmax action; less exploration, useful for ablations.">greedy</option></select></label>
+					<label title="How teams are selected for each episode. fixed: keep provided/default teams. random: sample teams from team pool each episode.">Team selection<select name="team_selection_policy" title="How teams are selected for each episode. fixed: keep provided/default teams. random: sample teams from team pool each episode."><option value="fixed" title="fixed: use provided/default p1 and p2 teams for all episodes.">fixed</option><option value="random" title="random: sample teams from available pool for broader matchup coverage.">random</option></select></label>
+					<label title="State/request representation mode sent from simulator. true: compact simplified state (faster). false: fuller request payload (more detail).">Simple state<select name="simple_state" title="State/request representation mode sent from simulator. true: compact simplified state (faster). false: fuller request payload (more detail)."><option value="true" title="true: use compact simplified state representation.">true</option><option value="false" title="false: use fuller request/state representation.">false</option></select></label>
+					<label title="How often to refresh frozen opponent snapshot from current policy (in iterations). 0 disables snapshot refresh.">Opponent refresh<input name="opponent_refresh_interval" type="number" value="0" title="How often to refresh frozen opponent snapshot from current policy (in iterations). 0 disables snapshot refresh." /></label>
+					<label title="Optional directory for saving frozen opponent checkpoints when opponent refresh is enabled.">Opponent checkpoint dir<input name="opponent_checkpoint_dir" placeholder="optional repo-relative path" title="Optional directory for saving frozen opponent checkpoints when opponent refresh is enabled." /></label>
+				</div>
+				<div class="grid two">
+					<label title="Optional fixed team file for player 1. Used directly when Team selection is fixed.">P1 team from folder<select class="team-select" name="p1team_path" title="Optional fixed team file for player 1. Used directly when Team selection is fixed."></select></label>
+					<label title="Optional fixed team file for player 2. Used directly when Team selection is fixed.">P2 team from folder<select class="team-select" name="p2team_path" title="Optional fixed team file for player 2. Used directly when Team selection is fixed."></select></label>
+				</div>
+				<details>
+					<summary>Paste arbitrary teams instead of files</summary>
+					<div class="grid two">
+						<label>P1 team text<textarea name="p1team_text" rows="8" placeholder="Paste Showdown export text here"></textarea></label>
+						<label>P2 team text<textarea name="p2team_text" rows="8" placeholder="Paste Showdown export text here"></textarea></label>
+					</div>
+				</details>
+				<div class="actions"><button type="submit">Start PPO training</button></div>
+			</form>
+		</section>
+
+		<section class="panel stack">
+			<div class="panel-header">
+				<h2>Evaluation</h2>
+				<span>Run PPO evaluation on chosen teams</span>
+			</div>
+			<form id="eval-form" class="stack compact-form">
+				<div class="grid two">
+					<label>Checkpoint<select class="checkpoint-select" name="checkpoint"></select></label>
+					<label>Format ID<input name="formatid" value="gen9ou" /></label>
+					<label>Episodes<input name="episodes" type="number" value="20" /></label>
+					<label>Max actions<input name="max_actions" type="number" value="128" /></label>
+					<label>Player ID<select name="player_id"><option value="p1">p1</option><option value="p2">p2</option></select></label>
+					<label>Strategy<select name="strategy"><option value="greedy">greedy</option><option value="sample">sample</option><option value="planned">planned</option></select></label>
+					<label>Planning top-k<input name="planning_top_k" type="number" value="4" /></label>
+					<label>Planning depth<input name="planning_depth" type="number" value="3" min="1" /></label>
+					<label>Planning gamma<input name="planning_gamma" type="number" step="0.01" value="0.99" /></label>
+					<label>Team selection<select name="team_selection_policy"><option value="fixed">fixed</option><option value="random">random</option></select></label>
+					<label>Simple state<select name="simple_state"><option value="true">true</option><option value="false">false</option></select></label>
+				</div>
+				<div class="grid two">
+					<label>P1 team from folder<select class="team-select" name="p1team_path"></select></label>
+					<label>P2 team from folder<select class="team-select" name="p2team_path"></select></label>
+				</div>
+				<details>
+					<summary>Paste arbitrary teams instead of files</summary>
+					<div class="grid two">
+						<label>P1 team text<textarea name="p1team_text" rows="8"></textarea></label>
+						<label>P2 team text<textarea name="p2team_text" rows="8"></textarea></label>
+					</div>
+				</details>
+				<div class="actions"><button type="submit">Start evaluation</button></div>
+			</form>
+		</section>
+
+		<section class="panel stack wide">
+			<div class="panel-header">
+				<h2>Battle Lab</h2>
+				<span>Create a live battle for replay, analysis, or human-vs-agent play</span>
+			</div>
+			<form id="battle-form" class="stack compact-form">
+				<div class="grid three">
+					<label>Mode<select name="mode"><option value="inspect">inspect</option><option value="agent">agent-vs-agent</option><option value="human">human-vs-agent</option></select></label>
+					<label>Checkpoint<select class="checkpoint-select" name="checkpoint"></select></label>
+					<label>Agent strategy<select name="agent_strategy"><option value="greedy">greedy</option><option value="sample">sample</option><option value="planned">planned</option></select></label>
+					<label>Human side<select name="human_player"><option value="">none</option><option value="p1">p1</option><option value="p2">p2</option></select></label>
+					<label>Format ID<input name="formatid" value="gen9ou" /></label>
+					<label>Max actions<input name="max_actions" type="number" value="128" /></label>
+					<label>Planning top-k<input name="planning_top_k" type="number" value="4" min="1" /></label>
+					<label>Planning depth<input name="planning_depth" type="number" value="3" min="1" /></label>
+					<label>Planning gamma<input name="gamma" type="number" step="0.01" value="0.99" /></label>
+					<label>Simple state<select name="simple_state"><option value="true">true</option><option value="false">false</option></select></label>
+					<label>Include log<select name="include_log"><option value="true">true</option><option value="false">false</option></select></label>
+				</div>
+				<div class="grid two">
+					<label>P1 team from folder<select class="team-select" name="p1team_path"></select></label>
+					<label>P2 team from folder<select class="team-select" name="p2team_path"></select></label>
+				</div>
+				<details>
+					<summary>Paste arbitrary teams instead of files</summary>
+					<div class="grid two">
+						<label>P1 team text<textarea name="p1team_text" rows="8"></textarea></label>
+						<label>P2 team text<textarea name="p2team_text" rows="8"></textarea></label>
+					</div>
+				</details>
+				<div class="actions"><button type="submit">Create battle session</button></div>
+			</form>
+
+			<div class="battle-toolbar" id="battle-toolbar" hidden>
+				<div class="toolbar-group">
+					<button data-advance="action">Advance 1 action</button>
+					<button data-advance="turn">Advance 1 turn</button>
+					<button data-advance="battle">Autoplay to end</button>
+					<button id="undo-action" class="secondary">Undo</button>
+					<button id="redo-action" class="secondary">Redo</button>
+					<button id="change-teams" class="secondary">Change teams</button>
+				</div>
+				<div class="toolbar-group">
+					<label>Inspect player<select id="inspect-player"><option value="p1">p1</option><option value="p2">p2</option></select></label>
+					<label>Cursor<input id="battle-cursor" type="range" min="0" max="0" value="0" /></label>
+					<input id="battle-cursor-number" type="number" min="0" value="0" />
+					<button id="jump-live">Go live</button>
+					<button id="close-battle">Close session</button>
+				</div>
+			</div>
+
+			<div id="battle-content" class="battle-content empty">No battle loaded yet.</div>
+		</section>
+
+		<section class="panel stack">
+			<div class="panel-header">
+				<h2>Jobs</h2>
+				<span>Background PPO train/eval runs</span>
+			</div>
+			<div id="jobs-summary" class="jobs-summary muted">No jobs started yet.</div>
+			<div id="jobs-list" class="stack small"></div>
+		</section>
+	</main>
+
+	<script src="/app.js" type="module"></script>
+</body>
+</html>

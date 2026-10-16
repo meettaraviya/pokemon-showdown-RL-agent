@@ -1,0 +1,63 @@
+Kyurem @ Heavy-Duty Boots / Choice Specs  
+Ability: Pressure  
+Tera Type: Ice  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Ice Beam  
+- Freeze-Dry  
+- Draco Meteor  
+- Earth Power  
+
+Slowking-Galar @ Heavy-Duty Boots  
+Ability: Regenerator  
+Tera Type: Fairy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Sassy Nature  
+IVs: 0 Atk / 0 Spe  
+- Future Sight  
+- Chilly Reception  
+- Sludge Bomb  
+- Slack Off  
+
+Gliscor @ Toxic Orb  
+Ability: Poison Heal  
+Tera Type: Fire  
+EVs: 244 HP / 56 Def / 192 SpD / 16 Spe  
+Impish Nature  
+- Earthquake  
+- Knock Off  
+- Protect  
+- Toxic  
+
+Skarmory @ Rocky Helmet  
+Ability: Sturdy  
+Tera Type: Dragon  
+EVs: 252 HP / 160 Def / 96 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Body Press  
+- Iron Defense  
+- Roost  
+- Stealth Rock  
+
+Dragapult @ Heavy-Duty Boots  
+Ability: Infiltrator  
+Tera Type: Fairy  
+EVs: 252 Atk / 4 SpA / 252 Spe  
+Hasty Nature  
+- Thunder Wave  
+- Will-O-Wisp  
+- Hex  
+- Dragon Darts  
+
+Kingambit @ Heavy-Duty Boots  
+Ability: Supreme Overlord  
+Tera Type: Flying  
+EVs: 208 HP / 252 Atk / 48 Spe  
+Adamant Nature  
+- Swords Dance  
+- Kowtow Cleave  
+- Sucker Punch  
+- Iron Head  
+

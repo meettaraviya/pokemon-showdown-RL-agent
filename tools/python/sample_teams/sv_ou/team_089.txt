@@ -1,0 +1,60 @@
+Gholdengo @ Leftovers  
+Ability: Good as Gold  
+Tera Type: Dark  
+EVs: 176 HP / 188 Def / 144 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Nasty Plot  
+- Psyshock  
+- Shadow Ball  
+- Recover  
+
+Gliscor @ Toxic Orb  
+Ability: Poison Heal  
+Tera Type: Water  
+EVs: 244 HP / 252 SpD / 12 Spe  
+Careful Nature  
+- Earthquake  
+- Knock Off  
+- Protect  
+- Spikes  
+
+Garganacl @ Leftovers  
+Ability: Purifying Salt  
+Tera Type: Fairy  
+EVs: 248 HP / 144 Def / 116 SpD  
+Impish Nature  
+- Curse  
+- Salt Cure  
+- Earthquake  
+- Recover  
+
+Empoleon @ Leftovers  
+Ability: Competitive  
+Tera Type: Water  
+EVs: 248 HP / 252 SpD / 8 Spe  
+Calm Nature  
+- Flip Turn  
+- Roar  
+- Surf  
+- Roost  
+
+Great Tusk @ Heavy-Duty Boots  
+Ability: Protosynthesis  
+Tera Type: Grass  
+EVs: 216 HP / 252 Def / 40 Spe  
+Impish Nature  
+- Rapid Spin  
+- Earthquake  
+- Ice Spinner  
+- Stealth Rock  
+
+Zamazenta @ Heavy-Duty Boots  
+Ability: Dauntless Shield  
+Tera Type: Fighting  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature  
+- Psychic Fangs  
+- Close Combat  
+- Stone Edge  
+- Crunch  

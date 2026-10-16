@@ -1,0 +1,64 @@
+Clodsire @ Heavy-Duty Boots  
+Ability: Unaware  
+Tera Type: Water  
+EVs: 252 HP / 252 Def / 4 SpD  
+Impish Nature  
+- Spikes  
+- Recover  
+- Toxic  
+- Earthquake  
+
+Gholdengo @ Heavy-Duty Boots  
+Ability: Good as Gold  
+Tera Type: Flying  
+EVs: 252 HP / 184 Def / 72 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Nasty Plot  
+- Recover  
+- Make It Rain  
+- Shadow Ball  
+
+Blissey @ Heavy-Duty Boots  
+Ability: Natural Cure  
+Tera Type: Fairy  
+EVs: 4 HP / 252 Def / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Stealth Rock  
+- Soft-Boiled  
+- Seismic Toss  
+- Shadow Ball  
+
+Alomomola @ Heavy-Duty Boots  
+Ability: Regenerator  
+Tera Type: Ghost  
+EVs: 252 HP / 252 Def / 4 SpD  
+Impish Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Chilling Water  
+- Whirlpool  
+
+Corviknight @ Rocky Helmet  
+Ability: Pressure  
+Tera Type: Dark  
+EVs: 252 HP / 252 Def / 4 SpD  
+Impish Nature  
+IVs: 0 Spe  
+- Body Press  
+- Roost  
+- Defog  
+- U-turn  
+
+Talonflame @ Heavy-Duty Boots  
+Ability: Flame Body  
+Tera Type: Normal  
+EVs: 252 HP / 204 Def / 52 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Flamethrower  
+- Air Slash  
+- Will-O-Wisp  
+- Roost  

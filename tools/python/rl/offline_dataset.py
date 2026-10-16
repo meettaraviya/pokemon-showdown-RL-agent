@@ -10,6 +10,7 @@ import numpy as np
 
 @dataclass(frozen=True)
 class OfflineBatch:
+    """OfflineBatch helper type/container used by the RL self-play tooling."""
     scalar: np.ndarray
     party: np.ndarray
     action_vectors: np.ndarray
@@ -28,6 +29,7 @@ class OfflineBatch:
 
 
 class OfflineDatasetBuilder:
+    """OfflineDatasetBuilder helper type/container used by the RL self-play tooling."""
     def __init__(self) -> None:
         self.scalar: list[np.ndarray] = []
         self.party: list[np.ndarray] = []
@@ -87,6 +89,7 @@ class OfflineDatasetBuilder:
 
 
 def save_offline_batch(path: Path, batch: OfflineBatch) -> None:
+    """save_offline_batch utility used by the RL self-play workflow."""
     path.parent.mkdir(parents=True, exist_ok=True)
     np.savez_compressed(
         path,
@@ -105,6 +108,7 @@ def save_offline_batch(path: Path, batch: OfflineBatch) -> None:
 
 
 def load_offline_batch(path: Path) -> OfflineBatch:
+    """load_offline_batch utility used by the RL self-play workflow."""
     with np.load(path, allow_pickle=False) as payload:
         return OfflineBatch(
             scalar=payload["scalar"].astype(np.float32),

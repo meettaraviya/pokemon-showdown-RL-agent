@@ -1,0 +1,68 @@
+Dragonite @ Heavy-Duty Boots  
+Ability: Multiscale  
+Shiny: Yes  
+Tera Type: Fire  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Fire Punch  
+- Encore  
+- Dragon Claw  
+
+Walking Wake @ Booster Energy  
+Ability: Protosynthesis  
+Tera Type: Dragon  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Agility  
+- Surf  
+- Dragon Pulse  
+- Substitute  
+
+Kingambit @ Black Glasses  
+Ability: Supreme Overlord  
+Shiny: Yes  
+Tera Type: Ghost  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Swords Dance  
+- Kowtow Cleave  
+- Sucker Punch  
+- Low Kick  
+
+Enamorus @ Heavy-Duty Boots  
+Ability: Cute Charm  
+Shiny: Yes  
+Tera Type: Dark  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Mystical Fire  
+- Moonblast  
+- Earth Power  
+
+Great Tusk @ Booster Energy  
+Ability: Protosynthesis  
+Shiny: Yes  
+Tera Type: Ice  
+EVs: 252 HP / 4 Atk / 252 Spe  
+Jolly Nature  
+- Bulk Up  
+- Close Combat  
+- Headlong Rush  
+- Ice Spinner  
+
+Glimmora @ Focus Sash  
+Ability: Toxic Debris  
+Shiny: Yes  
+Tera Type: Grass  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Stealth Rock  
+- Sludge Wave  
+- Energy Ball  
+- Earth Power  
+

@@ -1,0 +1,64 @@
+Darkrai @ Heavy-Duty Boots  
+Ability: Bad Dreams  
+Tera Type: Poison  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Dark Pulse  
+- Sludge Bomb  
+- Focus Blast  
+- Nasty Plot  
+
+Manaphy @ Covert Cloak  
+Ability: Hydration  
+Tera Type: Fairy  
+EVs: 56 HP / 200 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Energy Ball  
+- Tail Glow  
+
+Landorus-Therian @ Rocky Helmet  
+Ability: Intimidate  
+Tera Type: Grass  
+EVs: 248 HP / 36 Def / 224 Spe  
+Timid Nature  
+- Earth Power  
+- Taunt  
+- Stealth Rock  
+- U-turn  
+
+Gholdengo @ Air Balloon  
+Ability: Good as Gold  
+Tera Type: Fairy  
+EVs: 208 HP / 112 SpA / 188 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Shadow Ball  
+- Make It Rain  
+- Psyshock  
+- Nasty Plot  
+
+Raging Bolt @ Booster Energy  
+Ability: Protosynthesis  
+Tera Type: Bug  
+EVs: 196 HP / 4 Def / 252 SpA / 56 Spe  
+Modest Nature  
+IVs: 20 Atk  
+- Thunderbolt  
+- Dragon Pulse  
+- Thunderclap  
+- Calm Mind  
+
+Iron Valiant @ Booster Energy  
+Ability: Quark Drive  
+Tera Type: Dark  
+EVs: 16 Atk / 240 SpA / 252 Spe  
+Naive Nature  
+- Moonblast  
+- Close Combat  
+- Knock Off  
+- Thunderbolt  
+

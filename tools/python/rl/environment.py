@@ -7,7 +7,7 @@ from typing import Any
 
 from ..ou_selfplay_client import BattleState, LegalAction, PlayerId, SelfPlayBattle
 from .features import build_battle_features
-from .types import BattleFeatures, OpponentPolicy
+from .custom_types import BattleFeatures, OpponentPolicy
 
 
 @dataclass(frozen=True)
@@ -21,6 +21,7 @@ class BattleStep:
 
 
 def _default_opponent_policy(state: BattleState, player: PlayerId, legal_actions: tuple[LegalAction, ...]) -> int:
+    """_default_opponent_policy utility used by the RL self-play workflow."""
     del state, player
     if not legal_actions:
         raise ValueError("Opponent policy received no legal actions")
@@ -55,6 +56,7 @@ class SingleAgentBattleEnv:
         return self._player_id
 
     def reset(self) -> BattleStep:
+        self._advance_until_player_pending()
         self._last_observation = self.observe()
         return BattleStep(
             observation=self._last_observation,
@@ -101,7 +103,22 @@ class SingleAgentBattleEnv:
                 break
             self._battle.step(actions)
 
+    def _advance_until_player_pending(self) -> None:
+        # Resolve opponent-only pending decisions (for example post-KO
+        # replacements) before asking the controlled side to act.
+        last_signature: tuple[bool, int, tuple[PlayerId, ...]] | None = None
+        for _ in range(32):
+            state = self._battle.state
+            if state.done or self._player_id in state.pending_players:
+                return
+            signature = (state.done, state.turns, tuple(state.pending_players))
+            if signature == last_signature:
+                return
+            last_signature = signature
+            self._auto_play_pending_players()
+
     def step(self, action_index: int) -> BattleStep:
+        self._advance_until_player_pending()
         legal_actions = self._current_legal_actions()
         if not legal_actions:
             raise ValueError(f"No legal actions available for {self._player_id}")
@@ -119,7 +136,22 @@ class SingleAgentBattleEnv:
         step_info["legal_action_count"] = len(legal_actions)
         return BattleStep(observation=observation, reward=reward, done=self._battle.state.done, info=step_info)
 
+    def fork(self) -> "SingleAgentBattleEnv":
+        return SingleAgentBattleEnv(
+            battle=self._battle.fork(),
+            player_id=self._player_id,
+            opponent_policy=self._opponent_policy,
+        )
+
+    def simulate_step(self, action_index: int) -> BattleStep:
+        branch = self.fork()
+        try:
+            return branch.step(action_index)
+        finally:
+            branch.battle.close()
+
     def simulate(self, action_index: int) -> BattleFeatures:
+        self._advance_until_player_pending()
         legal_actions = self._current_legal_actions()
         if action_index < 0 or action_index >= len(legal_actions):
             raise ValueError(f"Action index {action_index} out of bounds for {self._player_id}")

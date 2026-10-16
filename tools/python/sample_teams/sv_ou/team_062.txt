@@ -1,0 +1,63 @@
+Corviknight @ Rocky Helmet  
+Ability: Pressure  
+Tera Type: Fighting  
+EVs: 248 HP / 200 Def / 60 SpD  
+Impish Nature  
+IVs: 0 Spe  
+- Body Press  
+- U-turn  
+- Iron Defense  
+- Roost  
+
+Dragapult @ Leftovers  
+Ability: Infiltrator  
+Tera Type: Fairy  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Naive Nature  
+- Substitute  
+- Dragon Darts  
+- Hex  
+- Will-O-Wisp  
+
+Skeledirge @ Heavy-Duty Boots  
+Ability: Unaware  
+Tera Type: Water  
+EVs: 232 HP / 56 Def / 176 SpD / 44 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Torch Song  
+- Hex  
+- Will-O-Wisp  
+- Slack Off  
+
+Ting-Lu @ Leftovers  
+Ability: Vessel of Ruin  
+Tera Type: Ghost  
+EVs: 244 HP / 252 SpD / 12 Spe  
+Careful Nature  
+- Rest  
+- Spikes  
+- Whirlwind  
+- Earthquake  
+
+Toxapex @ Shuca Berry  
+Ability: Regenerator  
+Tera Type: Fairy  
+EVs: 248 HP / 140 Def / 120 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Recover  
+- Toxic Spikes  
+
+Great Tusk @ Leftovers  
+Ability: Protosynthesis  
+Tera Type: Water  
+EVs: 244 HP / 208 Def / 56 Spe  
+Impish Nature  
+- Stealth Rock  
+- Earthquake  
+- Knock Off  
+- Rapid Spin  
+

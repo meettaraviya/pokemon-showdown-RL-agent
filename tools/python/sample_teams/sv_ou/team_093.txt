@@ -1,0 +1,60 @@
+Iron Jugulis @ Booster Energy  
+Ability: Quark Drive  
+Tera Type: Steel  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Naive Nature  
+- Knock Off  
+- Hurricane  
+- Earth Power  
+- Taunt  
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb  
+Tera Type: Water  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Ivy Cudgel  
+- Horn Leech  
+- Spikes  
+- U-turn  
+
+Tinkaton @ Air Balloon  
+Ability: Pickpocket  
+Tera Type: Water  
+EVs: 248 HP / 24 SpD / 236 Spe  
+Jolly Nature  
+- Stealth Rock  
+- Play Rough  
+- Thunder Wave  
+- Encore  
+
+Iron Moth @ Booster Energy  
+Ability: Quark Drive  
+Tera Type: Fairy  
+EVs: 124 Def / 132 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Fiery Dance  
+- Sludge Wave  
+- Psychic  
+- Dazzling Gleam  
+
+Great Tusk @ Booster Energy  
+Ability: Protosynthesis  
+Tera Type: Poison  
+EVs: 252 HP / 4 Def / 252 Spe  
+Jolly Nature  
+- Headlong Rush  
+- Ice Spinner  
+- Bulk Up  
+- Rapid Spin  
+
+Dragapult @ Choice Specs  
+Ability: Clear Body  
+Tera Type: Ghost  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Draco Meteor  
+- Shadow Ball  
+- Thunderbolt  
+- U-turn

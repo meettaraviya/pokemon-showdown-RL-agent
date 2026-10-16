@@ -1,0 +1,60 @@
+Weavile (F) @ Heavy-Duty Boots
+Ability: Pressure  
+Tera Type: Ghost  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Triple Axel  
+- Knock Off  
+- Ice Shard  
+- Swords Dance  
+
+Pecharunt @ Heavy-Duty Boots  
+Ability: Poison Puppeteer  
+Tera Type: Ghost  
+EVs: 248 HP / 200 Def / 56 SpD / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Malignant Chain  
+- Hex  
+- Parting Shot  
+- Recover  
+
+Ting-Lu @ Rocky Helmet  
+Ability: Vessel of Ruin  
+Tera Type: Water  
+EVs: 240 HP / 12 Atk / 16 Def / 220 SpD / 20 Spe  
+Impish Nature  
+- Earthquake  
+- Spikes  
+- Ruination  
+- Whirlwind  
+
+Tinkaton @ Air Balloon  
+Ability: Pickpocket  
+Tera Type: Water  
+EVs: 240 HP / 36 Atk / 232 Spe  
+Jolly Nature  
+- Stealth Rock  
+- Gigaton Hammer  
+- Encore  
+- Thunder Wave  
+
+Keldeo @ Heavy-Duty Boots  
+Ability: Justified  
+Tera Type: Fighting  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Hydro Pump  
+- Secret Sword  
+- Flip Turn  
+- Vacuum Wave  
+
+Dragonite (F) @ Heavy-Duty Boots
+Ability: Multiscale  
+Tera Type: Normal  
+EVs: 224 HP / 252 Atk / 32 Spe  
+Lonely Nature  
+- Extreme Speed  
+- Earthquake  
+- Hurricane  
+- Roost

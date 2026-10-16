@@ -1,0 +1,63 @@
+Dondozo @ Heavy-Duty Boots  
+Ability: Unaware  
+Tera Type: Fighting  
+EVs: 248 HP / 252 Def / 8 SpD  
+Impish Nature  
+- Body Press  
+- Avalanche  
+- Rest  
+- Sleep Talk  
+
+Weezing-Galar @ Heavy-Duty Boots  
+Ability: Neutralizing Gas  
+Tera Type: Grass  
+EVs: 252 HP / 252 Def / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Will-O-Wisp  
+- Defog  
+- Pain Split  
+- Sludge Bomb  
+
+Toxapex @ Assault Vest  
+Ability: Regenerator  
+Tera Type: Dark  
+EVs: 248 HP / 8 Def / 252 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Sludge Bomb  
+- Surf  
+- Infestation  
+- Ice Beam  
+
+Iron Treads @ Leftovers  
+Ability: Quark Drive  
+Tera Type: Ghost  
+EVs: 252 HP / 244 SpD / 12 Spe  
+Careful Nature  
+- Earthquake  
+- Rapid Spin  
+- Stealth Rock  
+- Protect  
+
+Blissey @ Leftovers  
+Ability: Natural Cure  
+Tera Type: Dark  
+EVs: 4 HP / 252 Def / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Shadow Ball  
+- Seismic Toss  
+- Soft-Boiled  
+
+Alomomola @ Rocky Helmet  
+Ability: Regenerator  
+Tera Type: Flying  
+EVs: 252 HP / 252 Def / 4 SpD  
+Relaxed Nature  
+IVs: 0 Spe  
+- Acrobatics  
+- Wish  
+- Flip Turn  
+- Protect  

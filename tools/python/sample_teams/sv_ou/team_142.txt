@@ -1,0 +1,61 @@
+Landorus-Therian @ Rocky Helmet  
+Ability: Intimidate  
+Tera Type: Dragon  
+EVs: 248 HP / 28 Def / 232 Spe  
+Jolly Nature  
+- Earthquake  
+- Stone Edge  
+- U-turn  
+- Stealth Rock  
+
+Zamazenta @ Heavy-Duty Boots  
+Ability: Dauntless Shield  
+Tera Type: Fire  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Close Combat  
+- Crunch  
+- Stone Edge  
+- Heavy Slam  
+
+Kingambit (F) @ Leftovers
+Ability: Supreme Overlord  
+Tera Type: Ghost  
+EVs: 120 HP / 136 Atk / 252 Spe  
+Adamant Nature  
+- Iron Head  
+- Low Kick  
+- Sucker Punch  
+- Swords Dance  
+
+Samurott-Hisui @ Assault Vest  
+Ability: Sharpness  
+Tera Type: Poison  
+EVs: 248 HP / 144 Atk / 56 SpD / 60 Spe  
+Adamant Nature  
+- Ceaseless Edge  
+- Razor Shell  
+- Sucker Punch  
+- Knock Off  
+
+Pecharunt @ Heavy-Duty Boots  
+Ability: Poison Puppeteer  
+Tera Type: Ghost  
+EVs: 248 HP / 8 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Hex  
+- Malignant Chain  
+- Parting Shot  
+- Recover  
+
+Hydreigon @ Leftovers  
+Ability: Levitate  
+Tera Type: Steel  
+EVs: 48 HP / 36 Def / 188 SpA / 236 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Draco Meteor  
+- Flash Cannon  
+- Substitute  
+- Nasty Plot

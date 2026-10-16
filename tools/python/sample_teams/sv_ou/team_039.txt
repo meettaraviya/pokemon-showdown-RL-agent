@@ -1,0 +1,65 @@
+Kingambit @ Leftovers  
+Ability: Supreme Overlord  
+Tera Type: Fire  
+EVs: 112 HP / 252 Atk / 144 Spe  
+Adamant Nature  
+- Swords Dance  
+- Iron Head  
+- Kowtow Cleave  
+- Sucker Punch  
+
+Glimmora @ Choice Scarf  
+Ability: Toxic Debris  
+Tera Type: Ground  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Sludge Wave  
+- Earth Power  
+- Power Gem  
+- Spikes  
+
+Great Tusk @ Focus Sash  
+Ability: Protosynthesis  
+Tera Type: Water  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Stealth Rock  
+- Rapid Spin  
+- Headlong Rush  
+- Close Combat  
+
+Hatterene @ Leftovers  
+Ability: Magic Bounce  
+Shiny: Yes  
+Tera Type: Water  
+EVs: 252 HP / 180 Def / 76 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Stored Power  
+- Draining Kiss  
+- Protect  
+
+Gholdengo @ Covert Cloak  
+Ability: Good as Gold  
+Tera Type: Flying  
+EVs: 176 HP / 252 SpA / 12 SpD / 68 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Shadow Ball  
+- Make It Rain  
+- Recover  
+- Nasty Plot  
+
+Dragonite @ Rocky Helmet  
+Ability: Multiscale  
+Tera Type: Water  
+EVs: 252 HP / 252 Def / 4 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Body Press  
+- Hurricane  
+- Ice Beam  
+- Roost  
+

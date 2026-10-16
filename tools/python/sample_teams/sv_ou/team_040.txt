@@ -1,0 +1,63 @@
+Garchomp @ Life Orb  
+Ability: Rough Skin  
+Tera Type: Fire  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Naive Nature  
+- Earthquake  
+- Draco Meteor  
+- Spikes  
+- Fire Blast  
+
+Gholdengo @ Choice Scarf  
+Ability: Good as Gold  
+Tera Type: Fairy  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Trick  
+- Recover  
+- Shadow Ball  
+- Make It Rain  
+
+Toxapex @ Black Sludge  
+Ability: Regenerator  
+Tera Type: Steel  
+EVs: 252 HP / 236 SpD / 20 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Haze  
+- Surf  
+- Recover  
+- Toxic  
+
+Garganacl @ Leftovers  
+Ability: Purifying Salt  
+Tera Type: Fairy  
+EVs: 252 HP / 240 Def / 16 Spe  
+Impish Nature  
+- Stealth Rock  
+- Salt Cure  
+- Recover  
+- Protect  
+
+Great Tusk @ Leftovers  
+Ability: Protosynthesis  
+Tera Type: Water  
+EVs: 252 HP / 104 Def / 152 Spe  
+Impish Nature  
+- Earthquake  
+- Rapid Spin  
+- Knock Off  
+- Bulk Up  
+
+Iron Valiant @ Choice Specs  
+Ability: Quark Drive  
+Tera Type: Fairy  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Trick  
+- Moonblast  
+- Shadow Ball  
+- Psyshock  
+

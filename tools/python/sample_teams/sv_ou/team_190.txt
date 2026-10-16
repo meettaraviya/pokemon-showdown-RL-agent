@@ -1,0 +1,62 @@
+Great Tusk @ Assault Vest  
+Ability: Protosynthesis  
+Tera Type: Water  
+EVs: 160 HP / 132 Atk / 12 SpD / 204 Spe  
+Adamant Nature  
+- Headlong Rush  
+- Rapid Spin  
+- Ice Spinner  
+- Close Combat  
+
+Walking Wake @ Wise Glasses  
+Ability: Protosynthesis  
+Tera Type: Ghost  
+EVs: 12 HP / 244 SpA / 252 Spe  
+Timid Nature  
+- Hydro Steam  
+- Draco Meteor  
+- Flamethrower  
+- Flip Turn  
+
+Kingambit @ Air Balloon  
+Ability: Supreme Overlord  
+Tera Type: Ghost  
+EVs: 140 HP / 252 Atk / 112 Spe  
+Adamant Nature  
+- Swords Dance  
+- Kowtow Cleave  
+- Iron Head  
+- Sucker Punch  
+
+Venusaur @ Life Orb  
+Ability: Chlorophyll  
+Tera Type: Fire  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Growth  
+- Giga Drain  
+- Weather Ball  
+- Sludge Bomb  
+
+Ninetales @ Heat Rock  
+Ability: Drought  
+Tera Type: Ghost  
+EVs: 248 HP / 44 Def / 216 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Will-O-Wisp  
+- Weather Ball  
+- Healing Wish  
+- Encore  
+
+Raging Bolt @ Air Balloon  
+Ability: Protosynthesis  
+Tera Type: Fairy  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 20 Atk  
+- Thunderbolt  
+- Thunderclap  
+- Dragon Pulse  
+- Calm Mind  

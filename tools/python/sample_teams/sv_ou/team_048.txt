@@ -1,0 +1,63 @@
+Rotom-Wash @ Leftovers  
+Ability: Levitate  
+Tera Type: Ghost  
+EVs: 252 HP / 252 Def / 4 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Volt Switch  
+- Hydro Pump  
+- Will-O-Wisp  
+- Protect  
+
+Glimmora @ Choice Scarf  
+Ability: Toxic Debris  
+Tera Type: Ground  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Spikes  
+- Earth Power  
+- Power Gem  
+- Sludge Wave  
+
+Great Tusk @ Leftovers  
+Ability: Protosynthesis  
+Tera Type: Water  
+EVs: 252 HP / 188 Def / 68 Spe  
+Impish Nature  
+- Earthquake  
+- Rapid Spin  
+- Knock Off  
+- Stealth Rock  
+
+Kingambit @ Leftovers  
+Ability: Supreme Overlord  
+Tera Type: Flying  
+EVs: 112 HP / 252 Atk / 144 Spe  
+Adamant Nature  
+- Kowtow Cleave  
+- Iron Head  
+- Sucker Punch  
+- Swords Dance  
+
+Skeledirge @ Heavy-Duty Boots  
+Ability: Unaware  
+Tera Type: Fairy  
+EVs: 252 HP / 40 Def / 88 SpA / 100 SpD / 28 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Substitute  
+- Torch Song  
+- Shadow Ball  
+- Slack Off  
+
+Dragapult @ Heavy-Duty Boots  
+Ability: Infiltrator  
+Tera Type: Dragon  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Will-O-Wisp  
+- U-turn  
+- Hex  
+- Draco Meteor  
+

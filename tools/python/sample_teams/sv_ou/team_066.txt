@@ -1,0 +1,61 @@
+Enamorus @ Leftovers  
+Ability: Cute Charm  
+Tera Type: Ground  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Agility  
+- Calm Mind  
+- Earth Power  
+- Moonblast  
+
+Great Tusk @ Booster Energy  
+Ability: Protosynthesis  
+Shiny: Yes  
+Tera Type: Ice  
+EVs: 252 HP / 4 Atk / 252 Spe  
+Jolly Nature  
+- Bulk Up  
+- Close Combat  
+- Headlong Rush  
+- Ice Spinner  
+
+Kingambit (F) @ Black Glasses
+Ability: Supreme Overlord  
+Tera Type: Dark  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Swords Dance  
+- Kowtow Cleave  
+- Sucker Punch  
+- Iron Head  
+
+Zamazenta @ Lum Berry  
+Ability: Dauntless Shield  
+Tera Type: Electric  
+EVs: 240 Atk / 100 Def / 168 Spe  
+Jolly Nature  
+- Iron Defense  
+- Body Press  
+- Heavy Slam  
+- Crunch  
+
+Ceruledge (F) @ Focus Sash
+Ability: Weak Armor  
+Tera Type: Flying  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Swords Dance  
+- Bitter Blade  
+- Shadow Sneak  
+- Close Combat  
+
+Samurott-Hisui (F) @ Focus Sash
+Ability: Torrent  
+Tera Type: Ghost  
+EVs: 252 Atk / 4 SpA / 252 Spe  
+Naive Nature  
+- Ceaseless Edge  
+- Knock Off  
+- Surf  
+- Aqua Jet

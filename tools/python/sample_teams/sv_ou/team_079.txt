@@ -1,0 +1,62 @@
+Tornadus-Therian @ Heavy-Duty Boots  
+Ability: Regenerator  
+Tera Type: Steel  
+EVs: 8 HP / 248 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Bleakwind Storm  
+- Heat Wave  
+- Focus Blast  
+- Nasty Plot  
+
+Dondozo (F) @ Heavy-Duty Boots
+Ability: Unaware  
+Tera Type: Fairy  
+EVs: 248 HP / 252 Def / 8 Spe  
+Impish Nature  
+- Liquidation  
+- Body Press  
+- Sleep Talk  
+- Rest  
+
+Ting-Lu @ Heavy-Duty Boots  
+Ability: Vessel of Ruin  
+Tera Type: Ghost  
+EVs: 248 HP / 8 Def / 252 SpD  
+Careful Nature  
+- Earthquake  
+- Spikes  
+- Protect  
+- Rest  
+
+Blissey @ Heavy-Duty Boots  
+Ability: Natural Cure  
+Tera Type: Fairy  
+EVs: 248 HP / 252 Def / 8 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Shadow Ball  
+- Calm Mind  
+- Soft-Boiled  
+- Heal Bell  
+
+Toxapex (F) @ Heavy-Duty Boots
+Ability: Regenerator  
+Tera Type: Fairy  
+EVs: 248 HP / 236 Def / 24 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Haze  
+- Recover  
+
+Corviknight (F) @ Rocky Helmet
+Ability: Pressure  
+Tera Type: Fighting  
+EVs: 248 HP / 140 Def / 120 Spe  
+Impish Nature  
+- Iron Head  
+- Body Press  
+- Iron Defense  
+- Roost

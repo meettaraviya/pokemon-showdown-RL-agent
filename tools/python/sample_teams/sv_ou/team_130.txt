@@ -1,0 +1,63 @@
+Hydrapple @ Heavy-Duty Boots  
+Ability: Regenerator  
+Tera Type: Fairy  
+EVs: 224 HP / 220 SpA / 64 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Nasty Plot  
+- Leaf Storm  
+- Fickle Beam  
+- Earth Power  
+
+Tinkaton @ Leftovers  
+Ability: Mold Breaker  
+Tera Type: Water  
+EVs: 248 HP / 28 SpD / 232 Spe  
+Jolly Nature  
+- Gigaton Hammer  
+- Knock Off  
+- Encore  
+- Stealth Rock  
+
+Moltres @ Heavy-Duty Boots  
+Ability: Flame Body  
+Tera Type: Fairy  
+EVs: 248 HP / 216 SpD / 12 Spe  
+Calm Nature  
+- Roar  
+- Flamethrower  
+- U-turn  
+- Roost  
+
+Rotom-Wash @ Rocky Helmet  
+Ability: Levitate  
+Tera Type: Steel  
+EVs: 248 HP / 216 Def / 44 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Volt Switch  
+- Will-O-Wisp  
+- Pain Split  
+- Hydro Pump  
+
+Great Tusk @ Heavy-Duty Boots  
+Ability: Protosynthesis  
+Tera Type: Fairy  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Knock Off  
+- Headlong Rush  
+- Rapid Spin  
+- Ice Spinner  
+
+Darkrai @ Leftovers  
+Ability: Bad Dreams  
+Tera Type: Ghost  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Dark Pulse  
+- Ice Beam  
+- Nasty Plot  
+- Thunder Wave  
+

@@ -10,6 +10,7 @@ from torch import Tensor, nn
 
 @dataclass(frozen=True)
 class ModelConfig:
+    """ModelConfig helper type/container used by the RL self-play tooling."""
     scalar_dim: int
     party_feature_dim: int
     action_feature_dim: int
@@ -20,6 +21,7 @@ class ModelConfig:
 
 
 class DeepSetStateEncoder(nn.Module):
+    """DeepSetStateEncoder helper type/container used by the RL self-play tooling."""
     def __init__(self, config: ModelConfig) -> None:
         super().__init__()
         self.party_proj = nn.Sequential(
@@ -47,6 +49,7 @@ class DeepSetStateEncoder(nn.Module):
 
 
 class SetTransformerStateEncoder(nn.Module):
+    """SetTransformerStateEncoder helper type/container used by the RL self-play tooling."""
     def __init__(self, config: ModelConfig) -> None:
         super().__init__()
         self.scalar_token = nn.Linear(config.scalar_dim, config.hidden_dim)
@@ -75,6 +78,7 @@ class SetTransformerStateEncoder(nn.Module):
 
 
 class ActionScoringHead(nn.Module):
+    """ActionScoringHead helper type/container used by the RL self-play tooling."""
     def __init__(self, config: ModelConfig) -> None:
         super().__init__()
         self.action_proj = nn.Sequential(
@@ -97,6 +101,7 @@ class ActionScoringHead(nn.Module):
 
 
 class OfflinePolicyValueNet(nn.Module):
+    """OfflinePolicyValueNet helper type/container used by the RL self-play tooling."""
     def __init__(self, config: ModelConfig, architecture: str = "deepset") -> None:
         super().__init__()
         if architecture == "deepset":

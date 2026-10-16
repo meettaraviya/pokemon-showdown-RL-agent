@@ -1,0 +1,63 @@
+Blissey @ Heavy-Duty Boots  
+Ability: Natural Cure  
+Tera Type: Dark  
+EVs: 4 HP / 252 Def / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Calm Mind  
+- Flamethrower  
+- Seismic Toss  
+
+Amoonguss @ Heavy-Duty Boots  
+Ability: Regenerator  
+Tera Type: Ghost  
+EVs: 248 HP / 252 Def / 8 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Toxic  
+- Foul Play  
+- Clear Smog  
+- Synthesis  
+
+Bronzong @ Leftovers  
+Ability: Levitate  
+Tera Type: Fighting  
+EVs: 248 HP / 8 Def / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Protect  
+- Psychic Noise  
+- Stealth Rock  
+- Body Press  
+
+Gliscor @ Toxic Orb  
+Ability: Poison Heal  
+Tera Type: Fairy  
+EVs: 244 HP / 168 SpD / 96 Spe  
+Careful Nature  
+- Protect  
+- Knock Off  
+- Spikes  
+- Earthquake  
+
+Dondozo @ Heavy-Duty Boots  
+Ability: Unaware  
+Tera Type: Fighting  
+EVs: 252 HP / 252 Def / 4 SpD  
+Impish Nature  
+- Curse  
+- Rest  
+- Sleep Talk  
+- Avalanche  
+
+Alomomola @ Heavy-Duty Boots  
+Ability: Regenerator  
+Tera Type: Steel  
+EVs: 12 HP / 252 Def / 244 SpD  
+Relaxed Nature  
+IVs: 0 Spe  
+- Wish  
+- Protect  
+- Scald  
+- Flip Turn  

@@ -1,0 +1,63 @@
+Iron Valiant @ Expert Belt  
+Ability: Quark Drive  
+Tera Type: Fairy  
+EVs: 108 HP / 252 SpA / 148 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Moonblast  
+- Thunderbolt  
+- Shadow Ball  
+- Psyshock  
+
+Skeledirge @ Leftovers  
+Ability: Unaware  
+Tera Type: Water  
+EVs: 248 HP / 88 SpA / 144 SpD / 28 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Torch Song  
+- Shadow Ball  
+- Slack Off  
+- Substitute  
+
+Great Tusk @ Leftovers  
+Ability: Protosynthesis  
+Tera Type: Water  
+EVs: 248 HP / 16 Atk / 164 Def / 80 Spe  
+Impish Nature  
+- Earthquake  
+- Knock Off  
+- Rapid Spin  
+- Stealth Rock  
+
+Kingambit @ Leftovers  
+Ability: Supreme Overlord  
+Tera Type: Fairy  
+EVs: 248 HP / 56 Atk / 204 SpD  
+Adamant Nature  
+- Kowtow Cleave  
+- Sucker Punch  
+- Iron Head  
+- Swords Dance  
+
+Toxapex @ Covert Cloak  
+Ability: Regenerator  
+Tera Type: Fairy  
+EVs: 248 HP / 140 Def / 116 SpD / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Haze  
+- Recover  
+
+Dragonite @ Heavy-Duty Boots  
+Ability: Multiscale  
+Tera Type: Normal  
+EVs: 124 HP / 252 Atk / 132 Spe  
+Adamant Nature  
+- Extreme Speed  
+- Earthquake  
+- Dragon Dance  
+- Roost  
+

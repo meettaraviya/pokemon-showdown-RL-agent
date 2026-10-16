@@ -1,0 +1,61 @@
+Samurott-Hisui @ Heavy-Duty Boots  
+Ability: Sharpness  
+Tera Type: Poison  
+EVs: 72 HP / 252 Atk / 184 Spe  
+Adamant Nature  
+- Ceaseless Edge  
+- Aqua Cutter  
+- Knock Off  
+- Sucker Punch  
+
+Gliscor @ Toxic Orb  
+Ability: Poison Heal  
+Tera Type: Ghost  
+EVs: 244 HP / 36 Def / 228 SpD  
+Careful Nature  
+IVs: 25 Spe  
+- Earthquake  
+- Toxic  
+- Protect  
+- U-turn  
+
+Great Tusk @ Rocky Helmet  
+Ability: Protosynthesis  
+Tera Type: Fairy  
+EVs: 184 HP / 72 Atk / 252 Spe  
+Jolly Nature  
+- Headlong Rush  
+- Close Combat  
+- Ice Spinner  
+- Rapid Spin  
+
+Tinkaton @ Air Balloon  
+Ability: Pickpocket  
+Tera Type: Ghost  
+EVs: 248 HP / 28 SpD / 232 Spe  
+Jolly Nature  
+- Stealth Rock  
+- Gigaton Hammer  
+- Knock Off  
+- Encore  
+
+Dragapult @ Heavy-Duty Boots  
+Ability: Infiltrator  
+Tera Type: Dragon  
+EVs: 56 Def / 200 SpA / 252 Spe  
+Timid Nature  
+- Draco Meteor  
+- Hex  
+- Will-O-Wisp  
+- U-turn  
+
+Garganacl @ Leftovers  
+Ability: Purifying Salt  
+Tera Type: Water  
+EVs: 252 HP / 52 Def / 204 SpD  
+Careful Nature  
+- Curse  
+- Salt Cure  
+- Earthquake  
+- Recover  
+

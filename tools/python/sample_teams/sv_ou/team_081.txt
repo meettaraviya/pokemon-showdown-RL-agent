@@ -1,0 +1,62 @@
+Kingambit @ Black Glasses  
+Ability: Supreme Overlord  
+Tera Type: Flying  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature  
+- Swords Dance  
+- Kowtow Cleave  
+- Sucker Punch  
+- Iron Head  
+
+Glimmora @ Focus Sash  
+Ability: Toxic Debris  
+Tera Type: Rock  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Naive Nature  
+- Stealth Rock  
+- Earth Power  
+- Power Gem  
+- Mortal Spin  
+
+Zamazenta @ Leftovers  
+Ability: Dauntless Shield  
+Shiny: Yes  
+Tera Type: Fire  
+EVs: 252 Atk / 120 Def / 136 Spe  
+Jolly Nature  
+- Iron Defense  
+- Body Press  
+- Stone Edge  
+- Crunch  
+
+Iron Valiant @ Booster Energy  
+Ability: Quark Drive  
+Tera Type: Fairy  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Moonblast  
+- Psyshock  
+- Hypnosis  
+
+Iron Moth @ Booster Energy  
+Ability: Quark Drive  
+Tera Type: Fairy  
+EVs: 124 Def / 132 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Fiery Dance  
+- Sludge Wave  
+- Substitute  
+- Dazzling Gleam  
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb  
+Tera Type: Water  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Swords Dance  
+- Power Whip  
+- Ivy Cudgel  
+- Knock Off

@@ -1,0 +1,61 @@
+Gholdengo @ Choice Scarf  
+Ability: Good as Gold  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Shadow Ball  
+- Make It Rain  
+- Trick  
+- Nasty Plot  
+
+Great Tusk @ Leftovers  
+Ability: Protosynthesis  
+Tera Type: Steel  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Headlong Rush  
+- Knock Off  
+- Close Combat  
+- Rapid Spin  
+
+Rotom-Wash @ Leftovers  
+Ability: Levitate  
+Tera Type: Water  
+EVs: 252 HP / 252 Def / 4 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Volt Switch  
+- Hydro Pump  
+- Protect  
+- Will-O-Wisp  
+
+Iron Valiant @ Booster Energy  
+Ability: Quark Drive  
+Tera Type: Electric  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Naive Nature  
+- Moonblast  
+- Close Combat  
+- Thunderbolt  
+- Psyshock  
+
+Dragonite @ Heavy-Duty Boots  
+Ability: Multiscale  
+Tera Type: Normal  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Fire Punch  
+- Earthquake  
+- Extreme Speed  
+
+Ting-Lu @ Leftovers  
+Ability: Vessel of Ruin  
+Tera Type: Poison  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Earthquake  
+- Stealth Rock  
+- Whirlwind  
+- Spikes  
+

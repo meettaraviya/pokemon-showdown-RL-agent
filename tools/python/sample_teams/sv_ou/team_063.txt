@@ -1,0 +1,62 @@
+Toxapex @ Red Card  
+Ability: Regenerator  
+Shiny: Yes  
+Tera Type: Fairy  
+EVs: 252 HP / 136 Def / 120 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Recover  
+- Haze  
+
+Kingambit @ Leftovers  
+Ability: Supreme Overlord  
+Tera Type: Fire  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Swords Dance  
+- Iron Head  
+- Kowtow Cleave  
+- Sucker Punch  
+
+Great Tusk @ Leftovers  
+Ability: Protosynthesis  
+Tera Type: Water  
+EVs: 248 HP / 16 Atk / 164 Def / 80 Spe  
+Impish Nature  
+- Earthquake  
+- Knock Off  
+- Rapid Spin  
+- Stealth Rock  
+
+Corviknight @ Leftovers  
+Ability: Pressure  
+Tera Type: Fighting  
+EVs: 248 HP / 236 Def / 24 Spe  
+Impish Nature  
+- Body Press  
+- Brave Bird  
+- Roost  
+- U-turn  
+
+Hatterene @ Leftovers  
+Ability: Magic Bounce  
+Tera Type: Water  
+EVs: 248 HP / 176 Def / 84 Spe  
+Bold Nature  
+- Draining Kiss  
+- Stored Power  
+- Calm Mind  
+- Nuzzle  
+
+Dragapult @ Leftovers  
+Ability: Infiltrator  
+Tera Type: Fairy  
+EVs: 16 Atk / 252 SpA / 240 Spe  
+Naughty Nature  
+- Substitute  
+- Dragon Darts  
+- Hex  
+- Will-O-Wisp  
+

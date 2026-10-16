@@ -1,0 +1,62 @@
+Iron Moth @ Booster Energy  
+Ability: Quark Drive  
+Tera Type: Ghost  
+EVs: 122 HP / 134 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Fiery Dance  
+- Toxic Spikes  
+- Sludge Wave  
+- Whirlwind  
+
+Gliscor @ Toxic Orb  
+Ability: Poison Heal  
+Tera Type: Normal  
+EVs: 172 HP / 228 Atk / 108 Spe  
+Adamant Nature  
+- Swords Dance  
+- Agility  
+- Earthquake  
+- Facade  
+
+Hatterene (F) @ Leftovers
+Ability: Magic Bounce  
+Tera Type: Water  
+EVs: 248 HP / 204 Def / 56 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Mystical Fire  
+- Draining Kiss  
+- Calm Mind  
+- Stored Power  
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb  
+Tera Type: Water  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Swords Dance  
+- Ivy Cudgel  
+- Trailblaze  
+- Encore  
+
+Raging Bolt @ Booster Energy  
+Ability: Protosynthesis  
+Tera Type: Ghost  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 20 Atk  
+- Calm Mind  
+- Dragon Pulse  
+- Thunderbolt  
+- Thunderclap  
+
+Zamazenta @ Light Clay  
+Ability: Dauntless Shield  
+Tera Type: Fire  
+EVs: 216 HP / 40 Atk / 252 Spe  
+Jolly Nature  
+- Reflect  
+- Close Combat  
+- Ice Fang  
+- Light Screen
